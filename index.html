@@ -11,7 +11,7 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav class="sticky top-0 z-10 flex items-center bg-gray-100 bg-opacity-90 h-14">
+  <nav class="sticky top-0 z-10 flex items-center bg-gray-100 h-14">
     <div class="container flex items-center max-w-6xl px-6 py-0 m-auto justify-end">
       <!-- MOBILE -->
       <span class="justify-end text-2xl md:hidden">
@@ -50,10 +50,14 @@
 
   <!-- GALLERY -->
   <section class="grid-rows-3 grid grid-cols-4 gap-4 max-w-6xl px-6 py-2 m-auto">
+    <!-- ABOUT ME -->
     <div class="col-span-2 w-full bg-cover bg-no-repeat" style="background-image: url(images/img2.jpg);"></div>
+    <!-- MY TOOLBOX -->
     <div class="w-full bg-cover bg-no-repeat" style="background-image: url(images/img5.jpg);"></div>
+    <!-- PROJECT -->
     <div class="w-full bg-cover bg-no-repeat" style="background-image: url(images/img6.jpg);"></div>
 
+    <!-- TESTIMONIALS -->
     <div class="row-span-2 col-span-2 w-full bg-cover bg-no-repeat" style="background-image: url(images/img7.jpg);">
     </div>
     <figure class="col-span-2">
@@ -65,20 +69,30 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="flex items-center justify-center bg-gray-100 bg-opacity-90 m-auto">
-    <div class="text-center px-6 py-4 max-w-3xl">
-      <p class="text-green-400 text-9xl">test test test test test test test test test</p>
-    </div>
+  <footer class="flex items-center justify-center bg-gray-100 bg-opacity-90 m-auto mb-4">
+    <div class="container max-w-6xl m-auto flex justify-center items-center ">
+      <div class="text-center px-6 py-4 max-w-3xl">
+        <p class="text-green-400 text-8xl">test test test test test test test test test</p>
+        <p class="text-green-400 text-md mt-4 text-left">© 2021 | Designed & Coded By Dany Chheang</p>
+      </div>
 
-    <div class="px-6 py-4 mr-6">
-      <h1 class="font-bold text-green-500 uppercase text-5xl mb-28">Bringing back the basics.</h1>
-      <div>
-        <label for="email" class="mb-1 text-sm uppercase m-0.5 block">Shoot me a message.</label>
-        <div class="flex items-start flex-1">
-          <input type="text" name="email" required placeholder="Enter your email address"
-            class="text-sm bg-transparent border-2 border-green-500 rounded-tl rounded-bl ml-0.5 p-4 container max-w-md">
-          <input id="submit" type="submit" value="Submit"
-            class="text-sm bg-green-500 border-2 border-green-500 rounded-tr rounded-br cursor-pointer hover:text-white outline-none mr-0.5 p-4 max-w-xs">
+      <div class="px-6 py-4 mr-6 max-w-md">
+        <h1 class="font-bold text-green-500 uppercase text-4xl mb-4">Let's connect.</h1>
+        <span class="text-green-500 text-4xl flex items-center justify-between mb-28">
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-github-square"></i>
+          <i class="fab fa-medium"></i>
+
+        </span>
+        <div>
+          <label for="email" class="mb-1 text-sm uppercase m-0.5 block">Shoot me a message.</label>
+          <div class="flex items-start flex-1">
+            <input type="text" name="email" required placeholder="Enter your email address"
+              class="text-sm bg-transparent border-2 border-green-500 rounded-tl rounded-bl ml-0.5 p-4 container max-w-md">
+            <input id="submit" type="submit" value="Submit"
+              class="text-sm bg-green-500 border-2 border-green-500 rounded-tr rounded-br cursor-pointer hover:text-white outline-none mr-0.5 p-4 max-w-xs">
+          </div>
         </div>
       </div>
     </div>
