@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/539a3afe41.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
   <link href="/src/css/build-tailwind.css" type="text/css" rel="stylesheet">
-  <title>Hire Me | Dany Chheang</title>
+  <title>Dany Chheang | Front End Developer</title>
 </head>
 
 <body>
@@ -24,7 +25,6 @@
         <p class="text-3xl font-semibold w-max sm:text-4xl">Dany Chheang</p>
       </div>
       <!-- END MOBILE -->
-
       <div class="hidden items-center md:flex pr-4">
         <span class="m-2 text-2xl text-green-500">
           <i class="far fa-address-card"></i>
@@ -51,72 +51,165 @@
   <!-- GALLERY -->
   <section class="grid-rows-3 grid grid-cols-4 gap-4 max-w-6xl px-6 py-2 m-auto">
     <!-- ABOUT ME -->
-    <div id="aboutBtn" class="col-span-2 w-full bg-cover bg-no-repeat hover:opacity-50"
-      style="background-image: url(images/img2.jpg);"></div>
+    <div id="aboutBtn" class="col-span-2 w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50"
+      style="background-image: url(images/img2.jpg);">
+      <h3 class="uppercase font-bold tracking-wider p-4">About Me</h3>
+    </div>
     <!-- ABOUT ME MODAL-->
-    <div id="aboutModal" class="modal fixed z-10 pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 hidden">
-      <div class="m-auto p-4 border-4 border-green-500 bg-white w-4/5">
-        <span class="close text-green-500 font-bold text-3xl float-right cursor-pointer">&times;</span>
-        <h1 class="text-3xl text-green-500 px-4 pt-4 uppercase font-extrabold tracking-wider">About Me</h1>
-        <p class="p-4 leading-6 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit, veniam
-          voluptate. Tenetur amet fuga corporis tempora enim, officiis aliquid, odit quo illo animi deserunt.
-          Blanditiis doloremque enim corporis veniam temporibus? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Animi expedita perferendis molestiae ab quidem tempora libero iusto natus odio, inventore
-          necessitatibus eum ducimus explicabo vitae mollitia! Non culpa ipsam et!</p>
-        <figure class="container flex items-center justify-around">
-          <img src="images/img2.jpg" alt="workstation with mouse and keyboard" class="p-4 w-2/5">
-          <img src="images/img4.jpg" alt="workstation with mouse and keyboard" class="p-4 w-2/5">
+    <div id="aboutModal"
+      class="modal fixed z-10 pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 bg-opacity-50 hidden">
+      <div class="m-auto bg-gray-100 w-3/5 shadow-lg overflow-scroll h-screen">
+        <figure class="overflow-hidden m-0">
+          <span class="close text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
+          <div class="bg-green-500 text-white text-center text-md p-6 uppercase"><i
+              class="fas fa-chair mr-2"></i>Excellent at sitting & working for 6+
+            hours.
+          </div>
+          <img src="images/img13.png" alt="workstation with desk and chair" class="w-full block opacity-70">
         </figure>
+        <h1 class="text-3xl px-12 pt-8 uppercase font-bold tracking-wider mb-4">About me</h1>
+        <hr class="my-2 mx-12">
+        <div>
+          <p class="px-12 pt-4 pb-8 leading-6 text-md w-11/12 tracking-wide"><span class="font-semibold">My name is
+              Dany
+              Chheang (she/her). I am a
+              Front-End
+              Developer with experience working in a fast-paced environment and
+              with cross-functional teams. </span>My top talent <a href="https://bit.ly/3nBdOjh" target="_blank"
+              class="cursor-pointer text-green-500 underline hover:text-black"><span>themes</span></a> include
+            Restorative
+            (problem solve & implement solutions), Input (collect & archive), Developer (cultivate potential in others),
+            Connectedness (see links between events), and Relator (form close
+            relationships).<br><br>
+            I am driven to find solutions that help people, which is why I am passionate about creating user-friendly
+            interface that is <span class="italic text-green-500 font-bold">inclusive, easily-accessibile, and
+              impactful</span>. In my spare time, I love to bike, travel, and binge-watch <a
+              href="https://www.youtube.com/watch?v=bjmgzLVuWLU&ab_channel=cm1982" target="_blank"
+              class="underline cursor-pointer text-green-500 hover:text-black">Seinfeld</a>. Most of all, I enjoy
+            continuously learning more adaptive approaches
+            to responsive design, and collaborating with others to build stable and maintainable codebases.<br><br>
+            <span class="uppercase text-md">Interested in working together?</span><br><br>
+            <a href="#"><button
+                class="px-12 py-4 text-base text-white tracking-widest uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer hover:bg-transparent hover:text-black"><i
+                  class="far fa-envelope-open"></i> Send me a message
+              </button></a>
+          </p>
+        </div>
       </div>
     </div>
-    <!-- END OF MODAL -->
+    <!-- END OF ABOUT ME MODAL -->
     <!-- MY TOOLBOX -->
-    <div id="toolboxBtn" class="w-full bg-cover bg-no-repeat hover:opacity-50"
-      style="background-image: url(images/img5.jpg);"></div>
+    <div id="toolboxBtn" class="w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50"
+      style="background-image: url(images/img5.jpg);">
+      <h3 class="uppercase font-bold tracking-wider p-4">Toolbox</h3>
+    </div>
     <!-- TOOLBOX MODAL-->
-    <div id="toolboxModal" class="modal fixed z-10 pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 hidden">
-      <div class="m-auto p-4 border-4 border-green-500 bg-white w-4/5">
-        <span class="close text-green-500 font-bold text-3xl float-right cursor-pointer">&times;</span>
-        <h1 class="text-3xl text-green-500 px-4 pt-4 uppercase font-extrabold tracking-wider">My Toolkit</h1>
-        <p class="p-4 leading-6 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit, veniam
-          voluptate. Tenetur amet fuga corporis tempora enim, officiis aliquid, odit quo illo animi deserunt.
-          Blanditiis doloremque enim corporis veniam temporibus? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Animi expedita perferendis molestiae ab quidem tempora libero iusto natus odio, inventore
-          necessitatibus eum ducimus explicabo vitae mollitia! Non culpa ipsam et!</p>
-        <figure class="container flex items-center justify-around">
-          <img src="images/img2.jpg" alt="workstation with mouse and keyboard" class="p-4 w-2/5">
-          <img src="images/img4.jpg" alt="workstation with mouse and keyboard" class="p-4 w-2/5">
+    <div id="toolboxModal"
+      class="modal fixed z-10 pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 bg-opacity-50 hidden">
+      <div class="m-auto bg-gray-100 w-3/5 shadow-lg overflow-scroll h-screen">
+        <figure class="overflow-hidden m-0">
+          <span class="close text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
+          <div class="bg-green-500 text-white text-center text-md p-6 uppercase"><i class="fas fa-wrench mr-2"></i>Abile
+            to connect metaphorical tools to on-the-job skills.
+          </div>
+          <img src="images/img1.png" alt="workstation with desk and chair" class="w-full block opacity-70">
         </figure>
+        <h1 class="text-3xl px-12 pt-8 uppercase font-bold tracking-wider mb-4">My Tools</h1>
+        <hr class="my-2 mx-12">
+        <p class="px-12 pt-4 pb-8 leading-6 text-md w-11/12 tracking-wide">
+          technologies
+        <div class="grid-rows-3 grid grid-cols-4 gap-4 max-w-6xl px-6 py-2 m-auto text-md text-green-500">
+          <span class="text-center">
+            <i class="devicon-html5-plain-wordmark text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-css3-plain-wordmark text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-javascript-plain text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-sass-original text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-jquery-plain-wordmark text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-react-original-wordmark text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-git-plain-wordmark text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-github-original-wordmark text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-visualstudio-plain-wordmark text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-bootstrap-plain-wordmark text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-nodejs-plain-wordmark text-3xl"></i>
+          </span>
+          <span class="text-center">
+            <i class="devicon-npm-original-wordmark"></i>
+          </span>
+        </div>
+        management skills<br>
+        <i class="fas fa-arrow-right"></i> Coordinated with cross-functional departments and teams to deliver
+        student-centric solutions and foster
+        student engagement which achieved 90+% retention rate session over session.
+        <i class="fas fa-arrow-right"></i> Interviewed, on-boarded, and trained 40+ new advisors on best practices in
+        portfolio management through
+        shadowing, as well as providing constructive feedback to junior advisors.
+        <i class="fas fa-arrow-right"></i>Empowered a team of 10+ advisors, which resulted in 3 teammates chosen out of
+        4 total advisors in a department
+        of 60 to lead in development programs or was promoted to managerial role.
+        <i class="fas fa-arrow-right"></i> Reduced at-risk student attendance pipeline by 20% by forecasting daily
+        strategies from Tableau data.
+        <br>
+        plus
+        <i class="fas fa-mug-hot"></i> caffeine
+        <i class="fas fa-laptop"></i> laptop
+        <i class="fas fa-mouse"></i> mouse
+        <i class="fas fa-bed"></i> 8 hours of sleep
+        </p>
       </div>
+    </div>
     </div>
     <!-- END OF MODAL -->
     <!-- PROJECT -->
-    <div id="projectBtn" class="w-full bg-cover bg-no-repeat hover:opacity-50"
-      style="background-image: url(images/img6.jpg);"></div>
+    <div id="projectBtn" class="w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50"
+      style="background-image: url(images/img6.jpg);">
+      <h3 class="uppercase font-bold tracking-wider p-4">Portfolio</h3>
+    </div>
     <!-- PROJECT MODAL-->
-    <div id="projectModal" class="modal fixed z-10 pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 hidden">
-      <div class="m-auto p-4 border-4 border-green-500 bg-white w-4/5">
+    <div id="projectModal"
+      class="modal fixed z-10 pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 bg-opacity-50 hidden shadow">
+      <div class="m-auto p-4 border-solid border-4 border-green-500 bg-gray-100 w-3/5">
         <span class="close text-green-500 font-bold text-3xl float-right cursor-pointer">&times;</span>
         <h1 class="text-3xl text-green-500 px-4 pt-4 uppercase font-extrabold tracking-wider">Projects</h1>
-        <p class="p-4 leading-6 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit, veniam
-          voluptate. Tenetur amet fuga corporis tempora enim, officiis aliquid, odit quo illo animi deserunt.
-          Blanditiis doloremque enim corporis veniam temporibus? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Animi expedita perferendis molestiae ab quidem tempora libero iusto natus odio, inventore
-          necessitatibus eum ducimus explicabo vitae mollitia! Non culpa ipsam et!</p>
-        <figure class="container flex items-center justify-around">
-          <img src="images/img2.jpg" alt="workstation with mouse and keyboard" class="p-4 w-2/5">
-          <img src="images/img4.jpg" alt="workstation with mouse and keyboard" class="p-4 w-2/5">
+        <hr class="my-2 mx-4">
+        <div class="flex flex-col items-center justify-center">
+          <p class="p-4 leading-6 text-lg">Project Name: Mortar & Pestle eCommerce Platform</p>
+          <br><a href="https://mortarpestle.netlify.app/" target="_blank">Demo</a>
+          <a href="https://github.com/dcc5235/Portfolio" target="_blank">Code</a>
+          <br>Highlights: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reiciendis provident dicta labore, temporibus dolorum necessitatibus fugiat vitae? Dicta quibusdam inventore
+          itaque quaerat soluta aliquid delectus reiciendis illum, autem explicabo commodi.
+        </div>
+        <figure class="container">
+          <img src="images/img12.png" alt="" class="p-4 w-2/5">
         </figure>
       </div>
     </div>
     <!-- END OF MODAL -->
 
     <!-- TESTIMONIALS -->
-    <div id="testimonialBtn" class="row-span-2 col-span-2 w-full bg-cover bg-no-repeat hover:opacity-50"
+    <div id="testimonialBtn" class="row-span-2 col-span-2 w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50"
       style="background-image: url(images/img7.jpg);">
+      <h3 class="uppercase font-bold tracking-wider p-4">Testimonials</h3>
     </div>
     <!-- TESTIMONIAL MODAL-->
     <div id="testimonialModal"
@@ -138,10 +231,12 @@
     </div>
     <!-- END OF MODAL -->
     <figure class="col-span-2">
-      <img src="images/img8.jpg" alt="Gallery image 6" class="w-full max-h-full">
+      <a href="https://www.linkedin.com/in/danychheang/" target="_blank"><img src="images/img8.jpg"
+          alt="Gallery image 6" class="w-full max-h-full cursor-pointer hover:opacity-50"></a>
     </figure>
     <figure class="col-span-2">
-      <img src="images/img9.jpg" alt="Gallery image 7" class="w-full max-h-full">
+      <a href="https://github.com/dcc5235" target="_blank"><img src="images/img9.jpg" alt="Gallery image 7"
+          class="w-full max-h-full cursor-pointer hover:opacity-50"></a>
     </figure>
   </section>
 
@@ -149,7 +244,9 @@
   <footer class="flex items-center justify-center bg-gray-100 bg-opacity-90 m-auto mb-4">
     <div class="container max-w-6xl m-auto flex justify-center items-center">
       <div class="text-left px-6 py-4 max-w-3xl">
-        <p class="text-green-500 text-5xl">This site is totally static right now. Come back later for more
+        <p class="text-green-500 text-5xl"><i class="fas fa-couch"></i> Thanks for visiting my space. This site is
+          totally static right now. Come back
+          later for more
           functionality.</p>
         <div class="container max-w-6xl m-auto">
           <hr class="my-8">
