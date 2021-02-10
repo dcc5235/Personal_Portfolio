@@ -43,7 +43,9 @@
         <span class="m-2 text-2xl text-green-500">
           <i class="far fa-envelope-open"></i>
         </span>
-        <p class="text-2xl font-semibold w-max cursor-pointer hover:text-green-500">Contact Me</p>
+        <a href="#message">
+          <p class="text-2xl font-semibold w-max cursor-pointer hover:text-green-500">Contact Me</p>
+        </a>
       </div>
     </div>
   </nav>
@@ -89,7 +91,7 @@
             continuously learning more adaptive approaches
             to responsive design, and collaborating with others to build stable and maintainable codebases.<br><br>
             <span class="uppercase text-md">Interested in working together?</span><br><br>
-            <a href="#"><button
+            <a href="#message"><button
                 class="px-12 py-4 text-base text-white tracking-widest uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer hover:bg-transparent hover:text-black"><i
                   class="far fa-envelope-open"></i> Send me a message
               </button></a>
@@ -268,7 +270,7 @@
         <div class="overflow-hidden m-0">
           <span class="close text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
           <div class="bg-green-500 text-white text-center text-md p-6 uppercase"><i class="fas fa-user-friends"></i>
-            Great professional partner. see why!
+            Great professional partner. check out why!
           </div>
           <span class="text-green-500 text-8xl float-left ml-16 pt-8 opacity-60"><i
               class="fas fa-quote-left"></i></span>
@@ -348,39 +350,45 @@
   <!-- FOOTER -->
   <footer class="flex items-center justify-center bg-gray-100 bg-opacity-90 m-auto mb-4">
     <div class="container max-w-6xl m-auto flex justify-center items-center">
-      <div class="text-left px-6 py-4 max-w-3xl">
-        <p class="text-green-500 text-5xl"><i class="fas fa-couch"></i> Thanks for visiting my space. This site is
-          totally under construction. Come back
-          later for more.</p>
+      <div class="text-left px-6 py-4 max-w-xl">
+        <p class="text-green-500 text-5xl"><i class="fas fa-couch"></i> Thanks for visiting my space. Feel free to shoot
+          me a message in the form any time.</p>
         <div class="container max-w-6xl m-auto">
           <hr class="my-8">
         </div>
-        <p class="text-green-500 text-md mt-4">© 2021 | Designed & Coded by Dany Chheang</p>
+        <p class="text-black text-md mt-4">© 2021 | Designed & Coded by Dany Chheang</p>
       </div>
-
-      <div class="px-6 py-4 mr-6 max-w-md">
-        <h1 class="font-bold text-green-500 uppercase text-4xl mb-4 pt-6">Let's connect.</h1>
-        <span class="text-green-500 text-4xl flex items-center justify-between mb-28">
-          <a href="https://www.linkedin.com/in/danychheang/" target="_blank" class="hover:text-black cursor-pointer"><i
-              class="fab fa-linkedin"></i></a>
-          <a href="https://twitter.com/DanyChheang" target="_blank" class="hover:text-black cursor-pointer"><i
-              class="fab fa-twitter-square"></i></a>
-          <a href="https://github.com/dcc5235" target="_blank" class="hover:text-black cursor-pointer"><i
-              class="fab fa-github-square"></i></a>
-          <a href="https://medium.com/switching-careers-to-front-end-development" target="_blank"
-            class="hover:text-black cursor-pointer"><i class="fab fa-medium"></i></a>
-
-        </span>
-        <div>
-          <label for="email" class="mb-1 text-sm uppercase m-0.5 block">Shoot me a message.</label>
-          <div class="flex items-start flex-1">
-            <input type="text" name="email" required placeholder="Enter your email address"
-              class="text-sm bg-transparent border-2 border-green-500 rounded-tl rounded-bl ml-0.5 p-4 container max-w-md">
-            <input id="submit" type="submit" value="Submit"
-              class="text-sm bg-green-500 border-2 border-green-500 rounded-tr rounded-br cursor-pointer hover:text-white outline-none mr-0.5 p-4 max-w-xs">
-          </div>
+      <div id="message" class="px-6 py-4 mr-6 max-w-md">
+        <div class="mb-28">
+          <h1 class="font-bold text-green-500 uppercase text-4xl mb-4">
+            Let's connect.</h1>
+          <span class="text-green-500 text-4xl flex items-center justify-between mb-8">
+            <a href="https://www.linkedin.com/in/danychheang/" target="_blank"
+              class="hover:text-black cursor-pointer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/DanyChheang" target="_blank" class="hover:text-black cursor-pointer"><i
+                class="fab fa-twitter-square"></i></a>
+            <a href="https://github.com/dcc5235" target="_blank" class="hover:text-black cursor-pointer"><i
+                class="fab fa-github-square"></i></a>
+            <a href="https://medium.com/switching-careers-to-front-end-development" target="_blank"
+              class="hover:text-black cursor-pointer"><i class="fab fa-medium"></i></a></span>
+          <form action="https://formspree.io/f/maylkzke" method="POST">
+            <label>
+              <input type="email" name="_replyto"
+                class="text-sm bg-transparent border-2 border-green-500 rounded-lg ml-0.5 p-4 container max-w-md mb-4"
+                placeholder="Your Email Address" required="required">
+            </label>
+            <label>
+              <textarea name="message" type="text" placeholder="Enter Your Message" class="resize-none bg-transparent text-sm bg-transparent border-2 border-green-500 rounded-lg ml-0.5 p-4 container max-w-md mb-4 w-full h-32
+                required=" required"></textarea>
+            </label>
+            <button type="submit"
+              class="text-sm bg-green-500 border-2 border-green-500 rounded-lg cursor-pointer hover:text-white outline-none mr-0.5 p-4 max-w-xs uppercase">Send
+              Message</button>
+          </form>
         </div>
       </div>
+    </div>
+
     </div>
   </footer>
 
