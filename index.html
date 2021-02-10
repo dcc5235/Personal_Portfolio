@@ -276,7 +276,7 @@
         <div class="overflow-hidden m-0">
           <span class="close text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
           <div class="bg-green-500 text-white text-center text-md p-6 uppercase"><i class="fas fa-user-friends"></i>
-            Great professional partner. check out why!
+            A great professional partner. check out why!
           </div>
           <span class="text-green-500 text-8xl float-left ml-16 pt-8 opacity-60"><i
               class="fas fa-quote-left"></i></span>
@@ -386,8 +386,9 @@
                 placeholder="Your Email Address" required="required">
             </label>
             <label>
-              <textarea name="message" type="text" placeholder="Enter Your Message" class="resize-none bg-transparent text-sm bg-transparent border-2 border-green-500 rounded-lg ml-0.5 p-4 container max-w-md mb-4 w-full h-32
-                required=" required"></textarea>
+              <textarea name="message" type="text" placeholder="Enter Your Message"
+                class="resize-none bg-transparent text-sm bg-transparent border-2 border-green-500 rounded-lg ml-0.5 p-4 container max-w-md mb-4 w-full h-32"
+                required="required"></textarea>
             </label>
             <button type="submit"
               class="text-sm bg-green-500 border-2 shadow-lg outline-none border-green-500 rounded-lg cursor-pointer text-white outline-none mr-0.5 p-4 max-w-xs uppercase  hover:bg-transparent hover:text-black">Send
@@ -402,28 +403,60 @@
       class="modal fixed z-10 pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 bg-opacity-50 hidden">
       <div class="m-auto bg-gray-100 w-3/5 shadow-lg overflow-scroll h-screen">
         <figure class="overflow-hidden m-0">
-          <span class="close text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
+          <span id="close" class="text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
           <div class="bg-green-500 text-white text-center text-md p-6 uppercase"><i class="far fa-edit"></i>
             most expressive through creative design & code
           </div>
           <img src="images/img4.png" alt="workstation with desk and chair" class="w-full block opacity-70">
         </figure>
         <div class="pl-12 pt-4 pb-8 leading-6 text-md w-11/12 tracking-wide">
-          <h1 class="text-3xl pt-8 uppercase font-bold tracking-wider mb-4">Design Choice</h1>
+          <h1 class="text-3xl pt-8 uppercase font-bold tracking-wider mb-4">Design Concept</h1>
           <hr class="my-2">
-          <p class="pt-4 pb-8 leading-6 text-md w-11/12 tracking-wide">
-            I wanted to go with a minimalist theme that went straight to the point.
-            I also wanted a comfortable theme that expressed who I am - a caffeine feind, working from home, and a
-            do-er. Hence why, this is my space and also that I want you as a user to feel comfortable, too.
-            <br><br>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam numquam consequatur laboriosam cum, ducimus
-            vitae aliquid blanditiis provident possimus? Natus quae nisi consequuntur magni maxime dicta architecto
-            perspiciatis dolor illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nam molestias
-            dolores corrupti debitis delectus sed mollitia voluptatibus obcaecati nesciunt praesentium numquam ipsa quod
-            magni, quo esse a et facilis?
-          </p>
+          <div class="flex flex-col justify-between leading-relaxed pt-4 pb-8 leading-6 text-md w-11/12 tracking-wide">
+            <p class="mb-4">
+              When I thought about creating my portfolio site, I knew I wanted to encapsulate my personality within the
+              design. I also wanted my portfolio to give off the energy of a comfortable, safe space where users can
+              explore parts of
+              who I am as a developer.</p>
+            <p class="mb-2"><i class="fas fa-palette text-green-500"></i> Colors: I chose more neutral,
+              earthy
+              tones to represent
+              myself as a down
+              to earth person. Although I like to plan my work 3 weeks to 3 months ahead of schedule, I like to leave
+              room for last minute changes, self-reflection, and time with those I love.</p>
+            <p class="mb-2"><i class="fas fa-compress-arrows-alt text-green-500"></i> Theme: I decided to utilize
+              minimalist
+              design concepts for
+              two reasons. Firstly, less is more. Secondly, I wanted users to know that what they see before them is
+              what's on the table.
+              Transparency is important to me.</p>
+            <p class="mb-8"><i class="fas fa-camera-retro text-green-500"></i> Images: I selected photos
+              which
+              showcased a
+              home-environment. It was
+              not only purposefully done to create a comfortable vibe, it also represents me — a caffeine fiend & a
+              do-er, working
+              from home.</p>
+            <span class="uppercase text-md">Interested in a partnership?</span><br><br>
+            <form action="https://formspree.io/f/maylkzke" method="POST">
+              <label>
+                <input type="email" name="_replyto"
+                  class="text-sm bg-transparent border-2 border-green-500 rounded-lg ml-0.5 p-4 container max-w-md mb-4"
+                  placeholder="Your Email Address" required="required">
+              </label>
+              <label>
+                <textarea name="message" type="text" placeholder="Enter Your Message"
+                  class="resize-none bg-transparent text-sm bg-transparent border-2 border-green-500 rounded-lg ml-0.5 p-4 container max-w-md mb-4 w-full h-32"
+                  required="required"></textarea>
+              </label><br>
+              <button type="submit"
+                class="text-sm bg-green-500 border-2 shadow-lg outline-none border-green-500 rounded-lg cursor-pointer text-white outline-none mr-0.5 p-4 max-w-xs uppercase  hover:bg-transparent hover:text-black">Send
+                Message</button>
+            </form>
+          </div>
         </div>
       </div>
+    </div>
     </div>
   </footer>
 
