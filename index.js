@@ -10,7 +10,7 @@ const projectModal = document.getElementById("projectModal");
 const testimonialModal = document.getElementById("testimonialModal");
 const spaceModal = document.getElementById("spaceModal");
 
-const closeBtn = document.querySelector(".close");
+const closeBtn = document.getElementById("close");
 
 // OPEN MODAL
 modalBtn.addEventListener("click", function () {
@@ -50,6 +50,6 @@ testimonialModal.addEventListener("click", function () {
   testimonialModal.style.display = "none";
 });
 
-spaceModal.addEventListener("click", function () {
+closeBtn.addEventListener("click", function () {
   spaceModal.style.display = "none";
 });
