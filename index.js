@@ -2,13 +2,15 @@ const modalBtn = document.getElementById("aboutBtn");
 const toolboxBtn = document.getElementById("toolboxBtn");
 const projectBtn = document.getElementById("projectBtn");
 const testimonialBtn = document.getElementById("testimonialBtn");
+const spaceBtn = document.getElementById("spaceBtn");
 
 const aboutModal = document.getElementById("aboutModal");
 const toolboxModal = document.getElementById("toolboxModal");
 const projectModal = document.getElementById("projectModal");
 const testimonialModal = document.getElementById("testimonialModal");
+const spaceModal = document.getElementById("spaceModal");
 
-const closeBtn = document.querySelector(".close");
+const closeBtn = document.getElementById("close");
 
 // OPEN MODAL
 modalBtn.addEventListener("click", function () {
@@ -27,6 +29,10 @@ testimonialBtn.addEventListener("click", function () {
   testimonialModal.style.display = "block";
 });
 
+spaceBtn.addEventListener("click", function () {
+  spaceModal.style.display = "block";
+});
+
 // CLOSE MODAL
 aboutModal.addEventListener("click", function () {
   aboutModal.style.display = "none";
@@ -42,4 +48,8 @@ projectModal.addEventListener("click", function () {
 
 testimonialModal.addEventListener("click", function () {
   testimonialModal.style.display = "none";
+});
+
+closeBtn.addEventListener("click", function () {
+  spaceModal.style.display = "none";
 });
