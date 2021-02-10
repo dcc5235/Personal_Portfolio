@@ -31233,6 +31233,10 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #10B981;  /* creates padding around scroll thumb */
 }
 
+#message {
+  min-width: 26rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
