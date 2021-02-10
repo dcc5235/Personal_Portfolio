@@ -64,7 +64,7 @@
     </div>
     <!-- ABOUT ME MODAL-->
     <div id="aboutModal"
-      class="modal fixed z-10 md:pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 md:bg-opacity-50 hidden">
+      class="modal fixed z-10 md:pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-100 md:bg-opacity-50 hidden">
       <div class="m-auto bg-gray-100 md:w-3/5 md:shadow-lg md:overflow-scroll md:h-screen w-full h-full">
         <figure class="overflow-hidden m-0">
           <span class="text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
@@ -120,7 +120,7 @@
     </div>
     <!-- TOOLBOX MODAL-->
     <div id="toolboxModal"
-      class="modal fixed z-10 md:pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 md:bg-opacity-50 hidden">
+      class="modal fixed z-10 md:pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-100 md:bg-opacity-50 hidden">
       <div class="m-auto bg-gray-100 md:w-3/5 md:shadow-lg md:overflow-scroll md:h-screen w-full h-full">
         <div class="overflow-hidden m-0">
           <span class="close text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
@@ -223,7 +223,7 @@
     </div>
     <!-- PROJECT MODAL-->
     <div id="projectModal"
-      class="modal fixed z-10 pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 bg-opacity-50 hidden">
+      class="modal fixed z-10 md:pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-100 md:bg-opacity-50 hidden">
       <div class="m-auto bg-gray-100  md:w-3/5 md:shadow-lg md:overflow-scroll md:h-screen w-full h-full">
         <figure class="overflow-hidden m-0">
           <span class="close text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
@@ -235,41 +235,55 @@
           <img src="images/img12.png" alt="workstation with desk and chair" class="w-full block opacity-70">
         </figure>
         <div class="pl-12 pt-4 pb-8 leading-6 text-md w-11/12 tracking-wide">
-          <h1 class="text-3xl pt-8 uppercase font-bold tracking-wider mb-4">Projects</h1>
+          <h1 class="text-3xl pt-8 uppercase font-bold tracking-wider  mb-4 text-center md:text-left">Projects</h1>
           <hr class="my-2 mx-12">
-          <h5 class="uppercase text-lg text-green-500 font-bold mb-4">Mortar & Pestle Full-Featured Platform</h5>
+          <h5 class="uppercase text-lg md:text-lg text-green-500 font-bold mb-4">Mortar & Pestle Full-Featured Platform
+          </h5>
           <div class="flex flex-col justify-between">
-            <p class="text-md"><i class="fas fa-arrow-circle-right text-green-500"></i> Project: Cosmetic
-              eCommerce Platform</p>
-            <p class="text-md"><i class="fas fa-arrow-circle-right text-green-500"></i> Resources: HTML5 | CSS3 |
+            <p class="text-lg md:text-md">
+              <span class="text-lg md:text-md"><i class="fas fa-arrow-circle-right text-green-500"></i></span> Project:
+              Cosmetic
+              eCommerce Platform
+            </p>
+            <p class="text-md">
+              <span class="text-lg md:text-md"><i class="fas fa-arrow-circle-right text-green-500"></i></span>
+              Resources: HTML5 | CSS3 |
               Tailwind
               CSS |
-              JavaScript | node.JS | RESTful API</p>
-            <p class="text-md"><i class="fas fa-arrow-circle-right text-green-500"></i> Highlights: <br><i
-                class="far fa-check-square text-green-500 ml-8"></i> Styled
+              JavaScript | node.JS | RESTful API
+            </p>
+            <p class="text-md">
+              <span class="text-lg md:text-md"><i class="fas fa-arrow-circle-right text-green-500"></i></span>
+              Highlights: <br><span class="text-lg md:text-md"><i
+                  class="far fa-check-square text-green-500 ml-8"></i></span> Styled
               entirely
-              with Tailwind CSS.<br><i class="far fa-check-square text-green-500 ml-8"></i> Headless CMS to
+              with Tailwind CSS.<br><span class="text-lg md:text-md"><i
+                  class="far fa-check-square text-green-500 ml-8"></i></span> Headless CMS to
               store products and user review data.
-              <br><i class="far fa-check-square text-green-500 ml-8"></i> PayPal API integration to
-              incorporate PayPal functionality into checkout page. <br><i
-                class="far fa-check-square text-green-500 ml-8"></i>
+              <br><span class="text-lg md:text-md"><i class="far fa-check-square text-green-500 ml-8"></i></span> PayPal
+              API integration to
+              incorporate PayPal functionality into checkout page. <br><span class="text-lg md:text-md"><i
+                  class="far fa-check-square text-green-500 ml-8"></i></span>
               Landing page re-routes users to full-featured
-              products page. <br><i class="far fa-check-square text-green-500 ml-8"></i> Products page displayed
-              using JavaScript, retrieving data via Restful API. <br><i
-                class="far fa-check-square text-green-500 ml-8"></i>
+              products page. <br><span class="text-lg md:text-md"><i
+                  class="far fa-check-square text-green-500 ml-8"></i></span> Products page displayed
+              using JavaScript, retrieving data via Restful API. <br><span class="text-lg md:text-md"><i
+                  class="far fa-check-square text-green-500 ml-8"></i></span>
               Fully
               functional shopping bag with ability to view
               products, add products, and remove products from bag.
             </p>
-            <p class="text-md"><i class="fas fa-arrow-circle-right text-green-500"></i> <a
+            <p class="text-md"><span class="text-lg md:text-md"><i
+                  class="fas fa-arrow-circle-right text-green-500"></i></span> <a
                 href="https://mortarpestle.netlify.app/" target="_blank"
                 class="underline cursor-pointer text-green-500 hover:text-black">Demo</a>: Despite this being a work in
               progress, you may now demo the static landing page.</p>
-            <p class="text-md"><i class="fas fa-arrow-circle-right text-green-500"></i> <a
+            <p class="text-md"><span class="text-lg md:text-md"><i
+                  class="fas fa-arrow-circle-right text-green-500"></i></span> <a
                 href="https://github.com/dcc5235/Portfolio" target="_blank"
                 class="underline cursor-pointer text-green-500 hover:text-black">Code</a>: Feel free to also check out
               my other repositories on Github.</p>
-            <div class="flex justify-center justify-around my-4 px-36">
+            <div class="flex justify-center justify-around my-4 md:px-36">
               <a href="https://mortarpestle.netlify.app/" target="_blank"><button
                   class="p-4 text-base text-white tracking-widest uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer hover:bg-transparent hover:text-black"><i
                     class="fas fa-laptop"></i> live Demo
