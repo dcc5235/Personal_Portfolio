@@ -31219,6 +31219,20 @@ video {
           animation: bounce 1s infinite;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #F3F4F6;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FFF;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #10B981;  /* creates padding around scroll thumb */
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
