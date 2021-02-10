@@ -52,28 +52,36 @@
   </nav>
 
   <!-- GALLERY -->
-  <section class="grid-rows-3 grid grid-cols-4 gap-4 max-w-6xl px-6 py-2 m-auto">
+  <section class="grid-rows-3 grid md:grid-cols-4 gap-4 max-w-6xl px-6 md:py-2 m-auto sm:grid-cols-2 py-6">
     <!-- ABOUT ME -->
-    <div id="aboutBtn" class="col-span-2 w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50"
+    <div id="aboutBtn"
+      class="col-span-2 w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50 flex items-center justify-between md:block border-2 md:border-none"
       style="background-image: url(images/img2.jpg);">
       <h3 class="uppercase font-bold tracking-wider p-4">About Me</h3>
+      <span class="md:hidden float-right font-bold text-3xl cursor-pointer p-4">
+        <i class="far fa-plus-square"></i>
+      </span>
     </div>
     <!-- ABOUT ME MODAL-->
     <div id="aboutModal"
-      class="modal fixed z-10 pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 bg-opacity-50 hidden">
-      <div class="m-auto bg-gray-100 w-3/5 shadow-lg overflow-scroll h-screen">
+      class="modal fixed z-10 md:pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-400 bg-opacity-50 hidden">
+      <div class="m-auto bg-gray-100 md:w-3/5 md:shadow-lg md:overflow-scroll md:h-screen w-full h-full">
         <figure class="overflow-hidden m-0">
-          <span class="close text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
+          <span class="text-white font-bold text-3xl float-right cursor-pointer py-2 px-6">&times;</span>
           <div class="bg-green-500 text-white text-center text-md p-6 uppercase"><i
               class="fas fa-chair mr-2"></i>Excellent at sitting & working for 6+
             hours.
           </div>
-          <img src="images/img13.png" alt="workstation with desk and chair" class="w-full block opacity-70">
+          <img src="images/img13.png" alt="workstation with desk and chair"
+            class="w-full block opacity-70 md:block hidden">
         </figure>
-        <h1 class="text-3xl px-12 pt-8 uppercase font-bold tracking-wider mb-4">About me</h1>
+        <h1 class="text-3xl px-12 pt-8 uppercase font-bold tracking-wider mb-4 text-center md:text-left">About me</h1>
         <hr class="my-2 mx-12">
         <div>
-          <p class="px-12 pt-4 pb-8 leading-6 text-md w-11/12 tracking-wide"><span class="font-semibold">My name is
+          <p
+            class="md:px-12 pt-4 md:pb-8 pb-4 leading-6 md:text-md w-11/12 tracking-wide text-lg pl-12 pr-0 md:text-left text-center">
+            <span class="font-semibold">My
+              name is
               Dany
               Chheang (she/her). I am a
               Front-End
@@ -91,7 +99,7 @@
               class="underline cursor-pointer text-green-500 hover:text-black">Seinfeld</a>. Most of all, I enjoy
             continuously learning more adaptive approaches
             to responsive design, and collaborating with others to build stable and maintainable codebases.<br><br>
-            <span class="uppercase text-md">Interested in working together?</span><br><br>
+            <span class="uppercase text-lg md:text-md">Interested in working together?</span><br><br>
             <a href="#message"><button
                 class="px-12 py-4 text-base text-white tracking-widest uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer hover:bg-transparent hover:text-black"><i
                   class="far fa-envelope-open"></i> Send me a message
@@ -102,9 +110,13 @@
     </div>
     <!-- END OF ABOUT ME MODAL -->
     <!-- MY TOOLBOX -->
-    <div id="toolboxBtn" class="w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50"
+    <div id="toolboxBtn"
+      class="w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50  flex items-center justify-between md:block border-2 md:border-none"
       style="background-image: url(images/img5.jpg);">
       <h3 class="uppercase font-bold tracking-wider p-4">Toolbox</h3>
+      <span class="md:hidden float-right font-bold text-3xl cursor-pointer p-4">
+        <i class="far fa-plus-square"></i>
+      </span>
     </div>
     <!-- TOOLBOX MODAL-->
     <div id="toolboxModal"
@@ -187,9 +199,13 @@
     </div>
     <!-- END OF MODAL -->
     <!-- PROJECT -->
-    <div id="projectBtn" class="w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50"
+    <div id="projectBtn"
+      class="w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50  flex items-center justify-between md:block border-2 md:border-none"
       style="background-image: url(images/img6.jpg);">
       <h3 class="uppercase font-bold tracking-wider p-4">Portfolio</h3>
+      <span class="md:hidden float-right font-bold text-3xl cursor-pointer p-4">
+        <i class="far fa-plus-square"></i>
+      </span>
     </div>
     <!-- PROJECT MODAL-->
     <div id="projectModal"
@@ -262,9 +278,13 @@
     <!-- END OF MODAL -->
 
     <!-- TESTIMONIALS -->
-    <div id="testimonialBtn" class="row-span-2 col-span-2 w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50"
+    <div id="testimonialBtn"
+      class="row-span-2 col-span-2 w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50  flex items-center justify-between md:block border-2 md:border-none"
       style="background-image: url(images/img7.jpg);">
       <h3 class="uppercase font-bold tracking-wider p-4">Testimonials</h3>
+      <span class="md:hidden float-right font-bold text-3xl cursor-pointer p-4">
+        <i class="far fa-plus-square"></i>
+      </span>
     </div>
     <!-- TESTIMONIAL MODAL-->
     <div id="testimonialModal"
