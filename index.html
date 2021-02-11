@@ -13,13 +13,13 @@
 <body>
   <!-- NAVBAR -->
   <nav class="sticky top-0 z-10 flex items-center bg-gray-100 h-14">
-    <div class="container flex items-center max-w-6xl px-6 py-0 m-auto sm:justify-end">
+    <div class="container flex items-center max-w-6xl px-6 py-0 m-auto md:justify-end">
       <!-- MOBILE -->
       <div class="flex items-center md:hidden">
         <span class="m-2 text-3xl text-green-600">
           <i class="fas fa-terminal animate-pulse"></i>
         </span>
-        <p class="text-3xl font-semibold lowercase w-max">Dany Chheang</p>
+        <p class="text-3xl font-semibold lowercase sm:text-4xl w-max">Dany Chheang</p>
       </div>
       <!-- END MOBILE -->
       <div class="items-center hidden pr-4 md:flex">
@@ -52,19 +52,18 @@
   </nav>
 
   <!-- GALLERY -->
-  <section
-    class="grid max-w-6xl grid-cols-1 grid-rows-1 gap-4 px-6 py-8 m-auto sm:grid-rows-3 md:grid-cols-4 md:py-2 sm:grid-cols-2">
+  <section class="grid max-w-6xl grid-cols-1 grid-rows-1 gap-4 px-6 py-8 m-auto sm:px-14 md:grid-cols-4 md:py-2">
     <!-- ABOUT ME -->
     <div id="aboutBtn"
-      class="flex items-center justify-between hidden w-full col-span-2 bg-no-repeat bg-cover border-2 cursor-pointer sm:block hover:opacity-50 md:block md:border-none"
+      class="items-center justify-between hidden w-full col-span-2 bg-no-repeat bg-cover border-2 cursor-pointer hover:opacity-50 md:flex md:border-none"
       style="background-image: url(images/img2.jpg);">
       <h3 class="p-4 font-bold tracking-wider uppercase">About Me</h3>
       <span class="float-right p-4 text-3xl font-bold cursor-pointer md:hidden">
         <i class="far fa-plus-square"></i>
       </span>
     </div>
-    <!-- ABOUT ME MOBILE -->
-    <div class="flex flex-col justify-between w-full col-span-2 mb-8 sm:hidden">
+    <!-- ABOUT ME MOBILE/TABLET -->
+    <div class="flex flex-col justify-between w-full col-span-2 mb-8 lg:hidden">
       <div class="my-2">
         <img alt="Dany" class="float-left rounded-full"
           src="https://media-exp1.licdn.com/dms/image/C5603AQGNh4-YDV_ntA/profile-displayphoto-shrink_100_100/0/1600369327808?e=1618444800&v=beta&t=mohTX28KGz1bgG1ftXWi8X7XGmNafpId2cDD1WgWOmQ">
@@ -76,7 +75,7 @@
       </div>
 
 
-      <p class="pt-4 leading-6 tracking-wide text-md">
+      <p class="pt-4 leading-6 tracking-wide text-md sm:text-lg">
 
 
         I have experience working in <span class="italic font-semibold text-green-600">Agile Scrum
@@ -100,7 +99,7 @@
         to responsive design, and collaborating with others to build stable and maintainable codebases.
         <br><br>
         <a href="#message">
-          <p class="text-base font-bold text-green-600 underline uppercase cursor-pointer hover:text-black">
+          <p class="text-base font-bold text-green-600 underline uppercase cursor-pointer hover:text-black sm:text-lg">
             <i class="far fa-envelope-open"></i> Send me a message
           </p>
         </a>
@@ -156,7 +155,7 @@
     <!-- END OF ABOUT ME MODAL -->
     <!-- MY TOOLBOX -->
     <div id="toolboxBtn"
-      class="flex items-center justify-between w-full col-span-2 bg-no-repeat bg-cover border-2 cursor-pointer sm:col-span-1 hover:opacity-50 md:block md:border-none"
+      class="flex items-center justify-between w-full col-span-2 bg-no-repeat bg-cover border-2 cursor-pointer md:col-span-1 hover:opacity-50 md:block md:border-none"
       style="background-image: url(images/img5.jpg);">
       <h3 class="p-4 font-bold tracking-wider uppercase">Toolbox</h3>
       <span class="float-right p-4 text-3xl font-bold cursor-pointer md:hidden">
@@ -267,7 +266,7 @@
     <!-- END OF TOOLBOX MODAL -->
     <!-- PROJECT -->
     <div id="projectBtn"
-      class="flex items-center justify-between w-full col-span-2 bg-no-repeat bg-cover border-2 cursor-pointer sm:col-span-1 hover:opacity-50 md:block md:border-none"
+      class="flex items-center justify-between w-full col-span-2 bg-no-repeat bg-cover border-2 cursor-pointer md:col-span-1 hover:opacity-50 md:block md:border-none"
       style="background-image: url(images/img6.jpg);">
       <h3 class="p-4 font-bold tracking-wider uppercase">Portfolio</h3>
       <span class="float-right p-4 text-3xl font-bold cursor-pointer md:hidden">
@@ -292,7 +291,7 @@
         </figure>
         <span class="float-right pl-6 pr-8 text-4xl font-bold text-green-500 cursor-pointer close sm:hidden"><i
             class="far fa-times-circle"></i></span>
-        <h1 class="px-8 mb-4 text-3xl font-bold tracking-wider uppercase">Projects</h1>
+        <h1 class="px-8 mb-4 text-3xl font-bold tracking-wider uppercase sm:pt-12">Projects</h1>
         <hr class="my-2">
         <div class="w-11/12 pt-4 pb-8 pl-8 leading-6 tracking-wide sm:pl-12 text-md">
 
@@ -301,7 +300,8 @@
             Mortar &
             Pestle Full-Featured Platform
           </h5>
-          <img src="images/img12.png" alt="workstation with desk and chair" class="w-full my-8 shadow-lg opacity-70">
+          <img src="images/img12.png" alt="workstation with desk and chair"
+            class="w-full my-8 shadow-lg opacity-70 sm:hidden">
           <div class="flex flex-col justify-between">
             <p class="text-lg md:text-md">
               <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span> Project:
@@ -321,7 +321,7 @@
             <p class="text-md">
               <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span>
               Highlights: <br><span class="text-lg md:text-md"><i
-                  class="mt-4 ml-8 text-green-500 far fa-check-square sm:mt-0"></i></span> Styled
+                  class="mt-4 ml-8 text-green-500 far fa-check-square"></i></span> Styled
               entirely
               with Tailwind CSS.<br><span class="text-lg md:text-md"><i
                   class="ml-8 text-green-500 far fa-check-square"></i></span> Headless CMS to
@@ -339,7 +339,7 @@
               functional shopping bag with ability to view
               products, add products, and remove products from bag.
             </p>
-            <p class="mt-4 text-md sm:mt-0 "><span class="text-lg md:text-md"><i
+            <p class="mt-4 text-md"><span class="text-lg md:text-md"><i
                   class="text-green-500 fas fa-arrow-circle-right"></i></span> <a
                 href="https://mortarpestle.netlify.app/" target="_blank"
                 class="text-green-500 underline cursor-pointer hover:text-black">Demo</a>: Despite this being a work in
@@ -405,7 +405,7 @@
           <div class="my-4">
             <img alt="Lauren" class="float-left rounded-full"
               src="https://media-exp1.licdn.com/dms/image/C5603AQGb_LwDKTrZWQ/profile-displayphoto-shrink_100_100/0/1560553141704?e=1618444800&v=beta&t=aESmvegxYRWmza78L1z1LomxTOZAjWiFBZjnSCO1bZ0">
-            <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-lg">Lauren Koehl
+            <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">Lauren Koehl
             </p>
             <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
             <p class="my-4 text-lg sm:pl-36 sm:text-md">
@@ -422,7 +422,7 @@
           <div class="my-4">
             <img alt="Jocelyn" class="float-left rounded-full"
               src="https://media-exp1.licdn.com/dms/image/C5603AQEpZwsB38u7Ug/profile-displayphoto-shrink_100_100/0/1517427876253?e=1618444800&v=beta&t=xrSzApsyV75scDW4V4g7IBpoDIMyIjB-7Rnz1JGvESA">
-            <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-lg">Jocelyn
+            <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">Jocelyn
               Ward</p>
             <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
             <p class="my-4 text-lg sm:pl-36 sm:text-md"> I have had the pleasure of working with Dany for almost two
@@ -440,7 +440,7 @@
           <div class="my-4">
             <img alt="Adonis" class="float-left rounded-full"
               src="https://media-exp1.licdn.com/dms/image/C5603AQFBtT95N7kaKg/profile-displayphoto-shrink_100_100/0/1516928849865?e=1618444800&v=beta&t=DHYHZFzwh5kpmbIYJF3caYUaJyQwwseJG18FflL7OjM">
-            <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-lg">Adonis
+            <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">Adonis
               Jones</p>
             <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
             <p class="my-4 text-lg sm:pl-36 sm:text-md"> I have been working with Dany for over two years now
@@ -469,11 +469,11 @@
     <figure class="col-span-2">
 
       <a href="https://www.linkedin.com/in/danychheang/" target="_blank"><img src="images/img3.png"
-          alt="Gallery image 6" class="w-full max-h-full shadow-lg cursor-pointer hover:opacity-50 sm:hidden"></a>
+          alt="Gallery image 6" class="w-full max-h-full shadow-lg cursor-pointer hover:opacity-50 md:hidden"></a>
     </figure>
     <figure class="col-span-2">
       <a href="https://www.linkedin.com/in/danychheang/" target="_blank"><img src="images/img8.jpg"
-          alt="Gallery image 6" class="hidden w-full max-h-full cursor-pointer hover:opacity-50 sm:block"></a>
+          alt="Gallery image 6" class="hidden w-full max-h-full cursor-pointer hover:opacity-50 md:block"></a>
     </figure>
     <div class="flex justify-center col-span-2 mt-8 md:hidden align-center">
       <span class="mr-2 text-2xl font-bold text-green-500 animate-bounce"><i class="fas fa-sort-down"></i></span>
@@ -481,11 +481,11 @@
     </div>
     <figure class="col-span-2">
       <a href="https://github.com/dcc5235" target="_blank"><img src="images/img11.png" alt="Gallery image 7"
-          class="w-full max-h-full shadow-lg cursor-pointer hover:opacity-50 sm:hidden"></a>
+          class="w-full max-h-full shadow-lg cursor-pointer hover:opacity-50 md:hidden"></a>
     </figure>
     <figure class="col-span-2">
       <a href="https://github.com/dcc5235" target="_blank"><img src="images/img9.jpg" alt="Gallery image 7"
-          class="hidden w-full max-h-full cursor-pointer hover:opacity-50 sm:block"></a>
+          class="hidden w-full max-h-full cursor-pointer hover:opacity-50 md:block"></a>
     </figure>
   </section>
 
@@ -506,7 +506,7 @@
         <p class="text-sm text-black lg:text-md md:mt-4">© 2021 | Design & Code by Dany Chheang</p>
       </div>
       <div id="message" class="max-w-md px-6 md:py-4 sm:mr-6">
-        <div class="text-center  mb-28 md:text-left">
+        <div class="text-center mb-28 md:text-left">
           <h1 class="mb-8 text-4xl font-bold text-black uppercase">
             Let's connect.</h1>
           <span class="flex items-center justify-around mb-8 text-4xl text-green-500">
