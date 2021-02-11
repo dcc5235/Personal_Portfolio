@@ -13,13 +13,13 @@
 <body>
   <!-- NAVBAR -->
   <nav class="sticky top-0 z-10 flex items-center bg-gray-100 h-14">
-    <div class="container flex items-center max-w-6xl px-6 py-0 m-auto justify-end">
+    <div class="container flex items-center max-w-6xl px-6 py-0 m-auto sm:justify-end">
       <!-- MOBILE -->
       <div class="flex items-center md:hidden">
         <span class="m-2 text-2xl text-green-500">
           <i class="fas fa-bookmark"></i>
         </span>
-        <p class="text-3xl font-semibold w-max">Dany Chheang</p>
+        <p class="text-3xl font-semibold w-max">Hire Me Text Filler</p>
       </div>
       <!-- END MOBILE -->
       <div class="hidden items-center md:flex pr-4">
@@ -56,13 +56,57 @@
     class="grid-rows-1 sm:grid-rows-3 grid md:grid-cols-4 gap-4 max-w-6xl px-6 md:py-2 m-auto sm:grid-cols-2 grid-cols-1 py-6">
     <!-- ABOUT ME -->
     <div id="aboutBtn"
-      class="col-span-2 w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50 flex items-center justify-between md:block border-2 md:border-none"
+      class="hidden sm:block col-span-2 w-full bg-cover bg-no-repeat cursor-pointer hover:opacity-50 flex items-center justify-between md:block border-2 md:border-none"
       style="background-image: url(images/img2.jpg);">
       <h3 class="uppercase font-bold tracking-wider p-4">About Me</h3>
       <span class="md:hidden float-right font-bold text-3xl cursor-pointer p-4">
         <i class="far fa-plus-square"></i>
       </span>
     </div>
+    <!-- ABOUT ME MOBILE -->
+    <div class="sm:hidden col-span-2 w-full flex flex-col justify-between">
+      <div class="my-2">
+        <img alt="Dany" class="rounded-full float-left"
+          src="https://media-exp1.licdn.com/dms/image/C5603AQGNh4-YDV_ntA/profile-displayphoto-shrink_100_100/0/1600369327808?e=1618444800&v=beta&t=mohTX28KGz1bgG1ftXWi8X7XGmNafpId2cDD1WgWOmQ">
+        <p class="mt-2 pl-28 uppercase text-green-500 text-2xl tracking-wider font-semibold">Dany Chheang
+        </p>
+        <p class="pl-28 text-lg">Front End Developer</p>
+        <p class="pl-28 text-lg"> JavaScript Stack
+        </p>
+      </div>
+
+
+      <p class="py-4 leading-6 tracking-wide text-md">
+
+
+        I have experience working in <span class="italic text-green-600 font-semibold">Agile Scrum
+          Environments</span> and
+        with cross-functional teams.
+        I specifically work with the <span class="italic text-green-600 font-semibold">JavaScript stack</span>, am
+        confident in building responsive websites from scratch, and am comfortable with using <span
+          class="italic text-green-600 font-semibold">CSS pre-processors</span> like Sass &
+        <span class="italic text-green-600 font-semibold">CSS
+          frameworks</span> like Bootstrap, Bulma, and Tailwind. I have
+        knowledge in Search Engine Optimization, RESTful APIs, and the
+        command line.<br><br>
+        <span class="font-bold"><i class="fas fa-sort-down animate-bounce"></i> Explore
+          the TOOLBOX for other tech I use.</span>
+
+        <br><br>
+        I am passionate about creating user-friendly
+        interface that is <span class="italic text-green-600 font-semibold">inclusive, easily-accessible, and
+          impactful</span>. I also enjoy
+        continuously learning more adaptive approaches
+        to responsive design, and collaborating with others to build stable and maintainable codebases.
+        <br><br>
+        <span class="uppercase text-md">Interested in working together?</span><br><br>
+        <a href="#message"><button
+            class="px-10 py-4 w-full text-base text-white tracking-widest uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer hover:bg-transparent hover:text-black"><i
+              class="far fa-envelope-open"></i> Send me a message
+          </button></a>
+      </p>
+    </div>
+    <!-- END OF ABOUT ME MOBILE -->
     <!-- ABOUT ME MODAL-->
     <div id="aboutModal"
       class="modal fixed z-10 md:pt-24 top-0 left-0 w-full h-full overflow-auto bg-gray-100 md:bg-opacity-50 hidden">
@@ -401,16 +445,24 @@
       <p>Click below to connect with me via Linkedin. Let's [virtually] chat over coffee.</p>
     </div>
     <figure class="col-span-2">
+      <a href="https://www.linkedin.com/in/danychheang/" target="_blank"><img src="images/img3.png"
+          alt="Gallery image 6" class="w-full max-h-full cursor-pointer hover:opacity-50 sm:hidden shadow-lg"></a>
+    </figure>
+    <figure class="col-span-2">
       <a href="https://www.linkedin.com/in/danychheang/" target="_blank"><img src="images/img8.jpg"
-          alt="Gallery image 6" class="w-full max-h-full cursor-pointer hover:opacity-50"></a>
+          alt="Gallery image 6" class="w-full max-h-full cursor-pointer hover:opacity-50 hidden sm:block"></a>
     </figure>
     <div class="md:hidden flex col-span-2 align-center justify-center">
       <span class="font-bold text-2xl text-green-500 animate-bounce mr-2"><i class="fas fa-sort-down"></i></span>
       <p>Click below to check out my Github. Feel free to take your time.</p>
     </div>
     <figure class="col-span-2">
+      <a href="https://github.com/dcc5235" target="_blank"><img src="images/img11.png" alt="Gallery image 7"
+          class="w-full max-h-full cursor-pointer hover:opacity-50 sm:hidden shadow-lg"></a>
+    </figure>
+    <figure class="col-span-2">
       <a href="https://github.com/dcc5235" target="_blank"><img src="images/img9.jpg" alt="Gallery image 7"
-          class="w-full max-h-full cursor-pointer hover:opacity-50"></a>
+          class="w-full max-h-full cursor-pointer hover:opacity-50 hidden sm:block"></a>
     </figure>
   </section>
 
