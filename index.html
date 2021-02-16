@@ -47,15 +47,48 @@
     <!-- END OF NAVBAR -->
 
     <!-- BANNER IMAGE -->
-    <header class="flex items-center justify-center bg-center bg-no-repeat bg-cover h-96"
+    <header class="flex items-center justify-center bg-center bg-no-repeat bg-cover h-96 lg:relative lg:h-screen"
       style="background-image: url(images/img16.jpg)">
-      <div class="inline-block p-8 text-center md:mb-12">
+      <div class="inline-block p-8 text-center md:mb-12 lg:hidden">
         <h1 class="text-4xl font-bold tracking-widest text-gray-100 uppercase sm:text-6xl md:text-7xl">Dany Chheang</h1>
       </div>
     </header>
     <!-- END OF BANNER IMAGE -->
 
+    <!-- CTA 1 OF 2 -->
+    <div
+      class="flex flex-col justify-start p-8 m-auto font-semibold bg-white lg:bg-transparent text-7xl lg:absolute lg:top-24 lg:left-4 lg:bg-gray-100 lg:opacity-70">
+      <div class="text-base font-normal md:max-w-4xl lg:max-w-lg md:text-lg">
+        <h1 class="hidden text-6xl font-bold tracking-widest text-black uppercase lg:block">
+          Dany Chheang</h1>
+        <p class="text-2xl md:text-3xl lg:mt-8">Creating user-friendly
+          interface with <span class="italic font-semibold text-green-500 lg:text-green-900">accessibility, inclusion,
+            and
+            impact</span> in mind.</p>
 
+        <div class="my-8">
+          <p>I am a Front-End Developer with
+            experience working in <span class="italic font-semibold text-green-600 lg:text-green-900">Agile Scrum
+              Environments</span> and
+            with cross-functional teams. I specifically work with the <span
+              class="italic font-semibold text-green-600 lg:text-green-900">JavaScript stack</span>. I am
+            confident building responsive websites from scratch and am comfortable with using <span
+              class="italic font-semibold text-green-600 lg:text-green-900">CSS pre-processors</span> like Sass &
+            <span class="italic font-semibold text-green-600 lg:text-green-900">CSS
+              frameworks</span> like Bootstrap, Bulma, and Tailwind. I have
+            knowledge in Search Engine Optimization, RESTful APIs, and the
+            command line. See below for additional technologies I use.
+          </p>
+        </div>
+
+        <button
+          class="px-4 py-4 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer sm:py-4 hover:bg-transparent hover:text-black">
+          <a href="#message"><i class="far fa-paper-plane"></i> send a message</a>
+        </button>
+
+      </div>
+    </div>
+    <!-- END OF CTA 1 OF 2 -->
 
   </main>
   <script src="index.js"></script>
