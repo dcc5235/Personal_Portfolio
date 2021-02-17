@@ -31237,6 +31237,10 @@ body::-webkit-scrollbar-thumb {
   min-width: 26rem;
 }
 
+#video {
+  z-index: -1;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
