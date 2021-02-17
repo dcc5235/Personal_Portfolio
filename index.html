@@ -81,10 +81,12 @@
           </p>
         </div>
 
-        <button
-          class="px-4 py-4 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer sm:py-4 hover:bg-transparent hover:text-black">
-          <a href="#message"><i class="far fa-paper-plane"></i> send a message</a>
-        </button>
+        <a href="#message">
+          <button
+            class="px-4 py-4 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer sm:py-4 hover:bg-transparent hover:text-black">
+            <i class="far fa-paper-plane"></i> send a message
+          </button>
+        </a>
 
       </div>
     </div>
@@ -94,6 +96,13 @@
     <section class="flex flex-col justify-start px-8 py-12 m-auto font-semibold bg-gray-100 lg:px-16">
       <div
         class="grid max-w-6xl grid-cols-2 grid-rows-3 text-lg text-green-500 auto-rows-auto gap-x-16 gap-y-4 sm:grid-cols-3 md:grid-cols-4 md:text-md lg:grid-cols-6">
+        <p
+          class="grid col-span-2 text-2xl tracking-wide text-black md:text-3xl sm:col-span-3 md:col-span-4 lg:col-span-6">
+          Continuously
+          learning more
+          adaptive
+          approaches to responsive design.</p>
+
         <span class="self-center text-center">
           <i class="text-6xl devicon-html5-plain-wordmark"></i>
           <p class="my-4 font-normal text-black">HTML5</p>
@@ -144,14 +153,7 @@
         </span>
 
         <p
-          class="grid col-span-2 my-4 text-2xl tracking-wide text-black md:text-3xl sm:col-span-3 md:col-span-4 lg:col-span-5">
-          Continuously
-          learning more
-          adaptive
-          approaches to responsive design.</p>
-
-        <p
-          class="grid col-span-2 text-base font-normal tracking-wide text-black md:text-lg sm:col-span-3 md:col-span-4 lg:col-span-5">
+          class="grid col-span-2 my-4 text-base font-normal tracking-wide text-black md:text-lg sm:col-span-3 md:col-span-4 lg:col-span-5">
           Some
           additional skills I have acquired include understanding of performance optimization, unit testing, and
           experience
@@ -177,26 +179,88 @@
           </span>.
         </p>
 
-        <p> I have a Master of Science in Management
-          with a concentration in Project Management. I am knowledgeable in Agile Scrum Methodologies & project
-          planning,
-          execution, and closure. I have also coordinated with
-          cross-functional departments
-          and teams to
-          deliver
-          client-focused solutions within sprint deadlines.
-        </p>
+        <div class="flex my-8">
+          <p> I have a Master of Science in Management
+            with a concentration in Project Management. I am knowledgeable in Agile Scrum Methodologies & project
+            planning,
+            execution, and closure. I have also coordinated with
+            cross-functional departments
+            and teams to
+            deliver
+            client-focused solutions within sprint deadlines.
+          </p>
+        </div>
 
-        <button
-          class="px-8 py-4 my-8 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer md:mb-0 sm:py-4 hover:bg-transparent hover:text-black"><a
-            href="https://www.linkedin.com/in/danychheang/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAA3Rgt4B7BUVOw3e_NtUv75NvZidO4V23HQ,1610076102710)/"
-            target="_blank"><i class="far fa-file"></i> View resume</a>
-        </button>
+        <a href="https://www.linkedin.com/in/danychheang/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAA3Rgt4B7BUVOw3e_NtUv75NvZidO4V23HQ,1610076102710)/"
+          target="_blank">
+          <button
+            class="px-8 py-4 my-8 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer md:mb-0 sm:py-4 hover:bg-transparent hover:text-black"><i
+              class="far fa-file"></i> View resume
+          </button>
+        </a>
       </div>
     </div>
     <!-- END OF CTA 2 OF 2 -->
 
 
+
+    <!-- MESSAGE -->
+    <div class="relative flex items-center justify-center pt-16 m-auto bg-transparent">
+      <div id="message" class="w-full max-w-md px-6 text-center mb-28">
+
+        <h1 class="mb-8 text-4xl font-bold text-black uppercase md:text-5xl">
+          Let's connect</h1>
+
+        <div class="flex items-center justify-around mb-8 text-4xl text-green-500">
+          <span class="cursor-pointer hover:text-black">
+            <a href="https://www.linkedin.com/in/danychheang/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </span>
+          <span class="cursor-pointer hover:text-black">
+            <a href="https://twitter.com/DanyChheang" target="_blank"><i class="fab fa-twitter-square"></i></a>
+          </span>
+          <span class="cursor-pointer hover:text-black">
+            <a href="https://github.com/dcc5235" target="_blank"><i class="fab fa-github-square"></i></a>
+          </span>
+          <span class="cursor-pointer hover:text-black">
+            <a href="https://medium.com/switching-careers-to-front-end-development" target="_blank"><i
+                class="fab fa-medium"></i></a>
+          </span>
+        </div>
+
+        <form action="https://formspree.io/f/maylkzke" method="POST">
+          <label>
+            <input type="email" name="_replyto"
+              class="text-sm bg-transparent border-2 border-green-500 rounded-lg ml-0.5 p-4 container max-w-md mb-4"
+              placeholder="Your Email Address" required="required">
+          </label>
+          <label>
+            <textarea name="message" type="text" placeholder="Enter Your Message"
+              class="resize-none bg-transparent text-sm border-2 border-green-500 rounded-lg ml-0.5 p-4 container max-w-md mb-4 w-full h-32"
+              required="required"></textarea>
+          </label>
+          <button type="submit"
+            class="text-sm bg-green-500 border-2 shadow-lg border-green-500 rounded-lg cursor-pointer text-white outline-none mr-0.5 p-4 max-w-xs uppercase hover:bg-transparent hover:text-black">Send
+            Message</button>
+        </form>
+
+        <!-- <div class="absolute top-0 left-0 z-0 w-full overflow-hidden opacity-30">
+          <video role="presentation" preload="auto" crossorigin="anonymous" autoplay loop
+            class="object-cover w-full h-full">
+            <source src="images/vid1.mp4" type="video/mp4">
+            <source src="images/vid1.webm" type="video/webm">
+            Your browser does not support this video.
+          </video>
+        </div> -->
+
+      </div>
+    </div>
+    <!-- END OF MESSAGE -->
+
+    <!-- FOOTER -->
+    <footer class="flex items-center justify-center max-w-6xl m-auto my-8 bg-white">
+      <p class="text-xs text-center md:text-sm">© 2021 Dany Chheang | Made with Love, Tailwind CSS, & JavaScript.</p>
+    </footer>
+    <!-- END OF FOOTER -->
   </main>
   <script src="index.js"></script>
 </body>
