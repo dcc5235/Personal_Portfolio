@@ -19,3 +19,7 @@ body::-webkit-scrollbar-thumb {
 #message {
   min-width: 26rem;
 }
+
+#video {
+  z-index: -1;
+}
