@@ -32,11 +32,7 @@ closeBtn2.onclick = function () {
 window.onclick = function (event) {
   if (event.target == projectModal) {
     projectModal.style.display = "none";
-  }
-}
-
-window.onclick = function (event) {
-  if (event.target == testimonialModal) {
+  } else if (event.target == testimonialModal) {
     testimonialModal.style.display = "none";
   }
 }
