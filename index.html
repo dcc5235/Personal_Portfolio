@@ -27,10 +27,19 @@
 
         <div class="flex items-center pr-2 md:pr-4">
           <span class="m-2 text-xl text-green-500 md:text-2xl">
-            <i class="far fa-heart"></i>
+            <i class="fas fa-code-branch"></i>
           </span>
           <a href="https://github.com/dcc5235" target="_blank">
             <p class="text-xl font-semibold cursor-pointer md:text-2xl w-max hover:text-green-500">Github</p>
+          </a>
+        </div>
+
+        <div class="items-center hidden pr-2 sm:flex md:pr-4">
+          <span class="m-2 text-xl text-green-500 md:text-2xl">
+            <i class="far fa-heart"></i>
+          </span>
+          <a href="#project">
+            <p class="text-xl font-semibold cursor-pointer md:text-2xl w-max hover:text-green-500">Portfolio</p>
           </a>
         </div>
 
@@ -254,7 +263,7 @@
     <!-- MODALS -->
     <!-- PROJECT -->
     <div id="projectModal"
-      class="fixed top-0 left-0 z-10 hidden w-full h-full mt-4 overflow-auto bg-white md:pt-24 md:bg-opacity-50">
+      class="fixed top-0 left-0 z-10 hidden w-full h-full mt-4 overflow-hidden bg-white md:pt-24 md:bg-opacity-50">
       <div class="w-full h-full pt-8 m-auto bg-white md:w-9/12 md:shadow-lg md:overflow-scroll md:h-screen">
         <figure class="m-0 overflow-hidden sm:block">
           <span class="float-right px-6 py-2 text-3xl font-bold text-white cursor-pointer close">&times;</span>
@@ -348,30 +357,28 @@
     <!-- END OF PROJECT -->
     <!-- TESTIMONIALS -->
     <div id="testimonialModal"
-      class="fixed top-0 left-0 z-10 hidden w-full h-full mt-4 overflow-auto bg-white modal md:pt-24 md:bg-opacity-50">
-      <div class="w-full h-full pt-8 m-auto bg-white md:w-9/12 md:shadow-lg md:overflow-scroll md:h-screen">
+      class="fixed top-0 left-0 z-10 hidden w-full h-full mt-12 overflow-hidden bg-white modal md:pt-12 md:bg-opacity-50">
+      <div class="w-full h-full pt-8 m-auto overflow-auto text-white bg-black md:w-11/12 lg:w-10/12">
         <!-- TABLET AND DESKTOP VIEW -->
-        <div class="hidden m-0 overflow-hidden sm:block">
-          <span class="float-left pt-8 ml-16 text-6xl text-green-500 sm:text-8xl opacity-60"><i
+        <div class="hidden m-0 overflow-hidden md:block lg:w-11/12">
+          <span class="float-left pt-8 ml-16 text-6xl text-green-600 sm:text-8xl opacity-60"><i
               class="fas fa-quote-left"></i></span>
-          <span class="float-right pt-2 pb-12 mr-16 text-6xl text-green-500 sm:text-8xl opacity-80"><i
+          <span class="float-right pt-2 pb-12 mr-16 text-6xl text-green-400 sm:text-8xl opacity-80"><i
               class="fas fa-quote-right"></i></span>
         </div>
         <!-- END OF TAB AND DESK VIEW -->
-
-
         <h1 class="px-12 mb-4 text-3xl font-bold tracking-wider uppercase">Testimonials</h1>
         <hr class="my-2">
 
-        <div class="w-11/12 pt-4 pb-8 pl-12 leading-6 tracking-wide text-md">
+        <div class="w-11/12 pt-4 pb-8 pl-12 leading-6 tracking-wide text-md lg:w-9/12">
           <div class="my-4">
-            <img alt="Lauren" class="float-left rounded-full"
+            <img alt="Lauren" class="float-left border-2 border-gray-800 rounded-full"
               src="https://media-exp1.licdn.com/dms/image/C5603AQGb_LwDKTrZWQ/profile-displayphoto-shrink_100_100/0/1560553141704?e=1618444800&v=beta&t=aESmvegxYRWmza78L1z1LomxTOZAjWiFBZjnSCO1bZ0">
             <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">
               Lauren Koehl
             </p>
-            <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
-            <p class="my-4 text-lg sm:pl-36 sm:text-md">
+            <p class="mb-4 pl-36 text-md">Perdoceo Education Corporation</p>
+            <p class="my-4 sm:pl-36 text-md">
               I have been working with Dany for almost 2 years now. She is incredibly knowledgeable and a great
               leader.
               One
@@ -386,13 +393,13 @@
             <hr class="my-8 sm:ml-36">
           </div>
           <div class="my-4">
-            <img alt="Jocelyn" class="float-left rounded-full"
+            <img alt="Jocelyn" class="float-left border-2 border-gray-800 rounded-full"
               src="https://media-exp1.licdn.com/dms/image/C5603AQEpZwsB38u7Ug/profile-displayphoto-shrink_100_100/0/1517427876253?e=1618444800&v=beta&t=xrSzApsyV75scDW4V4g7IBpoDIMyIjB-7Rnz1JGvESA">
             <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">
               Jocelyn
               Ward</p>
             <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
-            <p class="my-4 text-lg sm:pl-36 sm:text-md"> I have had the pleasure of working with Dany for almost
+            <p class="my-4 sm:pl-36 text-md"> I have had the pleasure of working with Dany for almost
               two
               years now. Being
               able to work with her has been
@@ -408,13 +415,13 @@
             <hr class="my-8 sm:ml-36">
           </div>
           <div class="my-4">
-            <img alt="Adonis" class="float-left rounded-full"
+            <img alt="Adonis" class="float-left border-2 border-gray-800 rounded-full"
               src="https://media-exp1.licdn.com/dms/image/C5603AQFBtT95N7kaKg/profile-displayphoto-shrink_100_100/0/1516928849865?e=1618444800&v=beta&t=DHYHZFzwh5kpmbIYJF3caYUaJyQwwseJG18FflL7OjM">
             <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">
               Adonis
               Jones</p>
             <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
-            <p class="my-4 text-lg sm:pl-36 sm:text-md"> I have been working with Dany for over two years now
+            <p class="my-4 sm:pl-36 text-md"> I have been working with Dany for over two years now
               and has been an incredible leader. she is attentive and
               pays close attention to her coworkers. She has implemented various strategies to make us more
               efficient
@@ -428,12 +435,14 @@
         <div class="w-11/12 pb-8 pl-12 leading-6 tracking-wide text-md">
           <span class="mt-4 sm:uppercase text-md">Interested in reading more?</span><br><br>
           <a href="https://www.linkedin.com/in/danychheang/" target="_blank"><button
-              class="px-6 py-4 mb-8 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer md:mb-0 sm:px-12 sm:py-4 hover:bg-transparent hover:text-black"><i
+              class="px-6 py-4 mb-8 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer md:mb-0 sm:px-12 sm:py-4 hover:bg-transparent hover:text-white"><i
                 class="fab fa-linkedin"></i> head over to Linkedin
             </button></a>
+          <div id="closeTestimonial" class="my-8 text-center">
+            <hr class="my-4">
+            <p class="text-2xl uppercase cursor-pointer">close</p>
+          </div>
         </div>
-        <hr class="my-2">
-        <span id="closeTestimonial" class="px-12 mb-4 text-3xl font-bold tracking-wider uppercase">Close</span>
 
       </div>
     </div>
@@ -484,12 +493,20 @@
             class="text-sm bg-green-500 border-2 shadow-lg border-green-500 rounded-lg cursor-pointer text-white outline-none mr-0.5 p-4 max-w-xs uppercase hover:bg-transparent hover:text-black">Send
             Message</button>
         </form>
+
+        <div class="mt-8 text-center">
+          <a href="#top" class="cursor-pointer hover:text-green-500">
+            <span class="text-5xl underline"><i class="fas fa-arrow-alt-circle-up"></i></span>
+            <p class="mt-2 text-xs underline uppercase ">Scroll to top</p>
+          </a>
+        </div>
+
       </div>
     </div>
     <!-- END OF MESSAGE -->
 
     <!-- FOOTER -->
-    <footer class="flex items-center justify-center max-w-6xl m-auto my-8 bg-white">
+    <footer class="flex flex-col items-center justify-center max-w-6xl m-auto my-8 bg-white">
       <p class="text-xs text-center md:text-sm">© 2021 Dany Chheang | Made with Love, Tailwind CSS, & JavaScript.</p>
     </footer>
     <!-- END OF FOOTER -->

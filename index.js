@@ -7,7 +7,7 @@ const projectModal = document.getElementById("projectModal");
 const testimonialModal = document.getElementById("testimonialModal");
 
 // Close Buttons
-const closeTest = document.getElementById("closeTestimonial");
+const closeBtn = document.getElementById("closeTestimonial");
 
 // OPEN MODAL
 projectBtn.onclick = function () {
@@ -19,8 +19,8 @@ testimonialBtn.onclick = function () {
 }
 
 // CLOSE ON CLOSE BUTTON
-span.onclick = function () {
-  closeTest.style.display = "none";
+closeBtn.onclick = function () {
+  testimonialModal.style.display = "none";
 }
 
 // CLOSE MODAL
