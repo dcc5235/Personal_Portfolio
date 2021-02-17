@@ -263,93 +263,100 @@
     <!-- MODALS -->
     <!-- PROJECT -->
     <div id="projectModal"
-      class="fixed top-0 left-0 z-10 hidden w-full h-full mt-4 overflow-hidden bg-white md:pt-24 md:bg-opacity-50">
-      <div class="w-full h-full pt-8 m-auto bg-white md:w-9/12 md:shadow-lg md:overflow-scroll md:h-screen">
-        <figure class="m-0 overflow-hidden sm:block">
-          <span class="float-right px-6 py-2 text-3xl font-bold text-white cursor-pointer close">&times;</span>
-          <img src="images/img12.png" alt="workstation with desk and chair" class="block w-full opacity-70">
+      class="fixed top-0 left-0 z-10 hidden w-full h-full mt-12 overflow-hidden bg-white bg-opacity-50 md:pt-12">
+      <div class="w-full h-full m-auto overflow-auto text-white bg-black md:w-11/12 lg:w-10/12">
+        <!-- TABLET AND DESKTOP VIEW -->
+        <figure class="hidden sm:block">
+          <img src="images/img3.png" alt="workstation with desk and chair" class="block w-full">
         </figure>
-        <span class="float-right pl-6 pr-8 text-4xl font-bold text-green-500 cursor-pointer close sm:hidden"><i
-            class="far fa-times-circle"></i></span>
-        <h1 class="px-8 mb-4 text-3xl font-bold tracking-wider uppercase sm:pt-12">Projects</h1>
+        <!-- END OF TAB AND DESK VIEW -->
+        <h1 class="px-8 pt-12 mb-4 text-3xl font-bold tracking-wider uppercase">Featured Project</h1>
         <hr class="my-2">
         <div class="w-11/12 pt-4 pb-8 pl-8 leading-6 tracking-wide sm:pl-12 text-md">
-
+          <!-- TABLET AND DESKTOP VIEW -->
           <h5
             class="hidden mb-4 text-lg font-bold text-center text-green-500 uppercase md:text-lg sm:text-left sm:block">
             Mortar &
             Pestle Full-Featured Platform
           </h5>
-          <img src="images/img12.png" alt="workstation with desk and chair"
-            class="w-full my-8 shadow-lg opacity-70 sm:hidden">
-          <div class="flex flex-col justify-between">
-            <p class="text-lg md:text-md">
-              <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span>
+          <!-- END OF TAB AND DESK VIEW -->
+          <div class="flex flex-col justify-between text-lg md:text-md">
+            <p>
+              <span class="text-green-500"><i class="fas fa-arrow-circle-right"></i></span>
               Project:
               eCommerce Platform
             </p>
-            <p class="text-lg md:text-md">
-              <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span>
+            <p>
+              <span class="text-green-500"><i class="fas fa-arrow-circle-right"></i></span>
               Title:
               Mortar & Pestle
             </p>
-            <p class="text-md">
-              <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span>
+            <p>
+              <span class="text-green-500"><i class="fas fa-arrow-circle-right"></i></span>
               Resources: HTML5 | CSS3 |
               Tailwind
               CSS |
               JavaScript | node.JS | RESTful API
             </p>
-            <p class="text-md">
-              <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span>
-              Highlights: <br><span class="text-lg md:text-md"><i
-                  class="mt-4 ml-8 text-green-500 far fa-check-square"></i></span> Styled
-              entirely
-              with Tailwind CSS.<br><span class="text-lg md:text-md"><i
-                  class="ml-8 text-green-500 far fa-check-square"></i></span> Headless CMS to
-              store products and user review data.
-              <br><span class="text-lg md:text-md"><i class="ml-8 text-green-500 far fa-check-square"></i></span> PayPal
-              API integration to
-              incorporate PayPal functionality into checkout page. <br><span class="text-lg md:text-md"><i
-                  class="ml-8 text-green-500 far fa-check-square"></i></span>
-              Landing page re-routes users to full-featured
-              products page. <br><span class="text-lg md:text-md"><i
-                  class="ml-8 text-green-500 far fa-check-square"></i></span> Products page displayed
-              using JavaScript, retrieving data via Restful API. <br><span class="text-lg md:text-md"><i
-                  class="ml-8 text-green-500 far fa-check-square"></i></span>
-              Fully
-              functional shopping bag with ability to view
-              products, add products, and remove products from bag.
+            <p>
+              <span class="text-green-500"><i class="fas fa-arrow-circle-right"></i></span>
+              Highlights:
             </p>
-            <p class="mt-4 text-md"><span class="text-lg md:text-md"><i
-                  class="text-green-500 fas fa-arrow-circle-right"></i></span> <a
-                href="https://mortarpestle.netlify.app/" target="_blank"
-                class="text-green-500 underline cursor-pointer hover:text-black">Demo</a>: Despite this
+
+            <div class="mt-4 ml-16">
+              <p><span><i class="text-green-500 far fa-check-square"></i></span> Styled
+                entirely
+                with Tailwind CSS.</p>
+              <p><span><i class="text-green-500 far fa-check-square"></i></span> Headless CMS to
+                store products and user review data.</p>
+              <p><span><i class="text-green-500 far fa-check-square"></i></span> PayPal
+                API integration to
+                incorporate PayPal functionality into checkout page. </p>
+              <p><span><i class="text-green-500 far fa-check-square"></i></span>
+                Landing page re-routes users to full-featured
+                products page. </p>
+              <p><span><i class="text-green-500 far fa-check-square"></i></span> Products page
+                displayed
+                using JavaScript, retrieving data via Restful API. </p>
+              <p><span><i class="text-green-500 far fa-check-square"></i></span>
+                Fully
+                functional shopping bag with ability to view
+                products, add products, and remove products from bag.</p>
+            </div>
+
+            <p>
+              <span class="text-green-500"><i class="fas fa-arrow-circle-right"></i></span>
+              Demo: Despite this
               being a
               work in
-              progress, you may now demo the shopping page.</p>
-            <p class="text-md"><span class="text-lg md:text-md"><i
-                  class="text-green-500 fas fa-arrow-circle-right"></i></span> <a
-                href="https://github.com/dcc5235/Portfolio" target="_blank"
-                class="text-green-500 underline cursor-pointer hover:text-black">Code</a>: Feel free to also
-              check out
-              my other repositories on Github.</p>
-            <div class="flex flex-col my-4 sm:justify-center sm:justify-around sm:flex-row md:px-36">
+              progress, you may now demo the shopping page.
+            </p>
+
+            <div class="my-4">
               <a href="https://mortarpestle.netlify.app/" target="_blank"><button
-                  class="px-12 py-4 mb-4 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer sm:mb-0 sm:p-4 hover:bg-transparent hover:text-black"><i
+                  class="px-12 py-4 mb-4 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer sm:p-4 hover:bg-transparent hover:text-white"><i
                     class="fas fa-laptop"></i> live Demo
                 </button></a>
+
               <a href="https://github.com/dcc5235/Portfolio" target="_blank"><button
-                  class="px-12 py-4 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer sm:p-4 hover:bg-transparent hover:text-black"><i
+                  class="px-12 py-4 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer sm:p-4 hover:bg-transparent hover:text-white"><i
                     class="fas fa-laptop-code"></i> view code
                 </button></a>
             </div>
+
             <span class="mt-4 sm:uppercase text-md">Interested in seeing other projects?</span><br>
-            <a href="https://www.linkedin.com/in/danychheang/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAA3Rgt4B7BUVOw3e_NtUv75NvZidO4V23HQ,1610076102710)/"
-              target="_blank"><button
-                class="px-8 py-4 mb-8 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer md:mb-0 sm:px-12 sm:py-4 hover:bg-transparent hover:text-black"><i
-                  class="fab fa-github-alt"></i> explore my github
-              </button></a>
+            <div>
+              <a href="https://www.linkedin.com/in/danychheang/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAA3Rgt4B7BUVOw3e_NtUv75NvZidO4V23HQ,1610076102710)/"
+                target="_blank"><button
+                  class="px-8 py-4 mb-8 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer md:mb-0 sm:px-12 sm:py-4 hover:bg-transparent hover:text-white"><i
+                    class="fab fa-github-alt"></i> explore my github
+                </button></a>
+            </div>
+
+          </div>
+          <div id="closeProject" class="my-8 text-center">
+            <hr class="my-4">
+            <p class="text-2xl uppercase cursor-pointer">close</p>
           </div>
         </div>
       </div>
@@ -369,15 +376,13 @@
         <!-- END OF TAB AND DESK VIEW -->
         <h1 class="px-12 mb-4 text-3xl font-bold tracking-wider uppercase">Testimonials</h1>
         <hr class="my-2">
-
         <div class="w-11/12 pt-4 pb-8 pl-12 leading-6 tracking-wide text-md lg:w-9/12">
           <div class="my-4">
             <img alt="Lauren" class="float-left border-2 border-gray-800 rounded-full"
               src="https://media-exp1.licdn.com/dms/image/C5603AQGb_LwDKTrZWQ/profile-displayphoto-shrink_100_100/0/1560553141704?e=1618444800&v=beta&t=aESmvegxYRWmza78L1z1LomxTOZAjWiFBZjnSCO1bZ0">
             <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">
-              Lauren Koehl
-            </p>
-            <p class="mb-4 pl-36 text-md">Perdoceo Education Corporation</p>
+              Lauren Koehl</p>
+            <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
             <p class="my-4 sm:pl-36 text-md">
               I have been working with Dany for almost 2 years now. She is incredibly knowledgeable and a great
               leader.
@@ -432,8 +437,8 @@
               manager.</p>
           </div>
         </div>
-        <div class="w-11/12 pb-8 pl-12 leading-6 tracking-wide text-md">
-          <span class="mt-4 sm:uppercase text-md">Interested in reading more?</span><br><br>
+        <div class="flex flex-col w-11/12 pb-8 pl-12 leading-6 tracking-wide text-md">
+          <span class="my-4 sm:uppercase text-md">Interested in reading more?</span>
           <a href="https://www.linkedin.com/in/danychheang/" target="_blank"><button
               class="px-6 py-4 mb-8 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer md:mb-0 sm:px-12 sm:py-4 hover:bg-transparent hover:text-white"><i
                 class="fab fa-linkedin"></i> head over to Linkedin
@@ -443,7 +448,6 @@
             <p class="text-2xl uppercase cursor-pointer">close</p>
           </div>
         </div>
-
       </div>
     </div>
     <!-- END OF TESTIMONIALS -->

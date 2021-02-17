@@ -8,6 +8,7 @@ const testimonialModal = document.getElementById("testimonialModal");
 
 // Close Buttons
 const closeBtn = document.getElementById("closeTestimonial");
+const closeBtn2 = document.getElementById("closeProject");
 
 // OPEN MODAL
 projectBtn.onclick = function () {
@@ -23,15 +24,15 @@ closeBtn.onclick = function () {
   testimonialModal.style.display = "none";
 }
 
+closeBtn2.onclick = function () {
+  projectModal.style.display = "none";
+}
+
 // CLOSE MODAL
 window.onclick = function (event) {
   if (event.target == projectModal) {
     projectModal.style.display = "none";
-  }
-}
-
-window.onclick = function (event) {
-  if (event.target == testimonialModal) {
+  } else if (event.target == testimonialModal) {
     testimonialModal.style.display = "none";
   }
 }
