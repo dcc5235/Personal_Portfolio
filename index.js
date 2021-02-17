@@ -6,6 +6,9 @@ const testimonialBtn = document.getElementById("testimonialBtn");
 const projectModal = document.getElementById("projectModal");
 const testimonialModal = document.getElementById("testimonialModal");
 
+// Close Buttons
+const closeTest = document.getElementById("closeTestimonial");
+
 // OPEN MODAL
 projectBtn.onclick = function () {
   projectModal.style.display = "block";
@@ -13,6 +16,11 @@ projectBtn.onclick = function () {
 
 testimonialBtn.onclick = function () {
   testimonialModal.style.display = "block";
+}
+
+// CLOSE ON CLOSE BUTTON
+span.onclick = function () {
+  closeTest.style.display = "none";
 }
 
 // CLOSE MODAL

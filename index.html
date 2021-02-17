@@ -95,7 +95,7 @@
     <!-- TOOLS -->
     <section class="flex flex-col justify-start px-8 py-12 m-auto font-semibold bg-gray-100 lg:px-16">
       <div
-        class="grid max-w-6xl grid-cols-2 grid-rows-3 text-lg text-green-500 auto-rows-auto gap-x-16 gap-y-4 sm:grid-cols-3 md:grid-cols-4 md:text-md lg:grid-cols-6">
+        class="grid max-w-6xl grid-cols-2 grid-rows-3 text-lg text-green-500 lg:m-auto auto-rows-auto gap-x-16 gap-y-4 sm:grid-cols-3 md:grid-cols-4 md:text-md lg:grid-cols-6">
         <p
           class="grid col-span-2 text-2xl tracking-wide text-black md:text-3xl sm:col-span-3 md:col-span-4 lg:col-span-6">
           Continuously
@@ -170,7 +170,7 @@
 
     <!-- CTA 2 OF 2 -->
     <div class="relative flex flex-col items-center p-8 m-auto lg:flex-row lg:px-16">
-      <div class="max-w-4xl text-base md:text-lg">
+      <div class="max-w-4xl text-base md:text-lg lg:m-auto lg:max-w-6xl">
 
         <div id="video" class="absolute top-0 left-0 w-full h-full overflow-hidden opacity-30">
           <video role="presentation" preload="auto" crossorigin="anonymous" autoplay muted loop
@@ -214,7 +214,7 @@
 
     <!-- GALLERY -->
     <div id="project" class="flex flex-col justify-start p-8 m-auto bg-white">
-      <div class="max-w-4xl md:mx-8">
+      <div class="max-w-4xl md:mx-8 lg:m-auto lg:max-w-6xl">
         <h1 class="mb-8 text-2xl font-bold md:text-3xl">Collaborating with others to build stable and maintainable
           codebases.
         </h1>
@@ -253,19 +253,205 @@
 
     <!-- MODALS -->
     <!-- PROJECT -->
+    <div id="projectModal"
+      class="fixed top-0 left-0 z-10 hidden w-full h-full mt-4 overflow-auto bg-white md:pt-24 md:bg-opacity-50">
+      <div class="w-full h-full pt-8 m-auto bg-white md:w-9/12 md:shadow-lg md:overflow-scroll md:h-screen">
+        <figure class="m-0 overflow-hidden sm:block">
+          <span class="float-right px-6 py-2 text-3xl font-bold text-white cursor-pointer close">&times;</span>
+          <img src="images/img12.png" alt="workstation with desk and chair" class="block w-full opacity-70">
+        </figure>
+        <span class="float-right pl-6 pr-8 text-4xl font-bold text-green-500 cursor-pointer close sm:hidden"><i
+            class="far fa-times-circle"></i></span>
+        <h1 class="px-8 mb-4 text-3xl font-bold tracking-wider uppercase sm:pt-12">Projects</h1>
+        <hr class="my-2">
+        <div class="w-11/12 pt-4 pb-8 pl-8 leading-6 tracking-wide sm:pl-12 text-md">
 
+          <h5
+            class="hidden mb-4 text-lg font-bold text-center text-green-500 uppercase md:text-lg sm:text-left sm:block">
+            Mortar &
+            Pestle Full-Featured Platform
+          </h5>
+          <img src="images/img12.png" alt="workstation with desk and chair"
+            class="w-full my-8 shadow-lg opacity-70 sm:hidden">
+          <div class="flex flex-col justify-between">
+            <p class="text-lg md:text-md">
+              <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span>
+              Project:
+              eCommerce Platform
+            </p>
+            <p class="text-lg md:text-md">
+              <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span>
+              Title:
+              Mortar & Pestle
+            </p>
+            <p class="text-md">
+              <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span>
+              Resources: HTML5 | CSS3 |
+              Tailwind
+              CSS |
+              JavaScript | node.JS | RESTful API
+            </p>
+            <p class="text-md">
+              <span class="text-lg md:text-md"><i class="text-green-500 fas fa-arrow-circle-right"></i></span>
+              Highlights: <br><span class="text-lg md:text-md"><i
+                  class="mt-4 ml-8 text-green-500 far fa-check-square"></i></span> Styled
+              entirely
+              with Tailwind CSS.<br><span class="text-lg md:text-md"><i
+                  class="ml-8 text-green-500 far fa-check-square"></i></span> Headless CMS to
+              store products and user review data.
+              <br><span class="text-lg md:text-md"><i class="ml-8 text-green-500 far fa-check-square"></i></span> PayPal
+              API integration to
+              incorporate PayPal functionality into checkout page. <br><span class="text-lg md:text-md"><i
+                  class="ml-8 text-green-500 far fa-check-square"></i></span>
+              Landing page re-routes users to full-featured
+              products page. <br><span class="text-lg md:text-md"><i
+                  class="ml-8 text-green-500 far fa-check-square"></i></span> Products page displayed
+              using JavaScript, retrieving data via Restful API. <br><span class="text-lg md:text-md"><i
+                  class="ml-8 text-green-500 far fa-check-square"></i></span>
+              Fully
+              functional shopping bag with ability to view
+              products, add products, and remove products from bag.
+            </p>
+            <p class="mt-4 text-md"><span class="text-lg md:text-md"><i
+                  class="text-green-500 fas fa-arrow-circle-right"></i></span> <a
+                href="https://mortarpestle.netlify.app/" target="_blank"
+                class="text-green-500 underline cursor-pointer hover:text-black">Demo</a>: Despite this
+              being a
+              work in
+              progress, you may now demo the shopping page.</p>
+            <p class="text-md"><span class="text-lg md:text-md"><i
+                  class="text-green-500 fas fa-arrow-circle-right"></i></span> <a
+                href="https://github.com/dcc5235/Portfolio" target="_blank"
+                class="text-green-500 underline cursor-pointer hover:text-black">Code</a>: Feel free to also
+              check out
+              my other repositories on Github.</p>
+            <div class="flex flex-col my-4 sm:justify-center sm:justify-around sm:flex-row md:px-36">
+              <a href="https://mortarpestle.netlify.app/" target="_blank"><button
+                  class="px-12 py-4 mb-4 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer sm:mb-0 sm:p-4 hover:bg-transparent hover:text-black"><i
+                    class="fas fa-laptop"></i> live Demo
+                </button></a>
+              <a href="https://github.com/dcc5235/Portfolio" target="_blank"><button
+                  class="px-12 py-4 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer sm:p-4 hover:bg-transparent hover:text-black"><i
+                    class="fas fa-laptop-code"></i> view code
+                </button></a>
+            </div>
+            <span class="mt-4 sm:uppercase text-md">Interested in seeing other projects?</span><br>
+            <a href="https://www.linkedin.com/in/danychheang/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAA3Rgt4B7BUVOw3e_NtUv75NvZidO4V23HQ,1610076102710)/"
+              target="_blank"><button
+                class="px-8 py-4 mb-8 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer md:mb-0 sm:px-12 sm:py-4 hover:bg-transparent hover:text-black"><i
+                  class="fab fa-github-alt"></i> explore my github
+              </button></a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- END OF PROJECT -->
     <!-- TESTIMONIALS -->
+    <div id="testimonialModal"
+      class="fixed top-0 left-0 z-10 hidden w-full h-full mt-4 overflow-auto bg-white modal md:pt-24 md:bg-opacity-50">
+      <div class="w-full h-full pt-8 m-auto bg-white md:w-9/12 md:shadow-lg md:overflow-scroll md:h-screen">
+        <!-- TABLET AND DESKTOP VIEW -->
+        <div class="hidden m-0 overflow-hidden sm:block">
+          <span class="float-left pt-8 ml-16 text-6xl text-green-500 sm:text-8xl opacity-60"><i
+              class="fas fa-quote-left"></i></span>
+          <span class="float-right pt-2 pb-12 mr-16 text-6xl text-green-500 sm:text-8xl opacity-80"><i
+              class="fas fa-quote-right"></i></span>
+        </div>
+        <!-- END OF TAB AND DESK VIEW -->
 
+
+        <h1 class="px-12 mb-4 text-3xl font-bold tracking-wider uppercase">Testimonials</h1>
+        <hr class="my-2">
+
+        <div class="w-11/12 pt-4 pb-8 pl-12 leading-6 tracking-wide text-md">
+          <div class="my-4">
+            <img alt="Lauren" class="float-left rounded-full"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQGb_LwDKTrZWQ/profile-displayphoto-shrink_100_100/0/1560553141704?e=1618444800&v=beta&t=aESmvegxYRWmza78L1z1LomxTOZAjWiFBZjnSCO1bZ0">
+            <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">
+              Lauren Koehl
+            </p>
+            <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
+            <p class="my-4 text-lg sm:pl-36 sm:text-md">
+              I have been working with Dany for almost 2 years now. She is incredibly knowledgeable and a great
+              leader.
+              One
+              thing that makes Dany such a great leader is her willingness to help and develop the employees on
+              her
+              team.
+              Dany is very hardworking, organized and passionate about her career. I have been lucky to have
+              worked with
+              Dany as long as I have.</p>
+          </div>
+          <div class="container max-w-6xl m-auto">
+            <hr class="my-8 sm:ml-36">
+          </div>
+          <div class="my-4">
+            <img alt="Jocelyn" class="float-left rounded-full"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQEpZwsB38u7Ug/profile-displayphoto-shrink_100_100/0/1517427876253?e=1618444800&v=beta&t=xrSzApsyV75scDW4V4g7IBpoDIMyIjB-7Rnz1JGvESA">
+            <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">
+              Jocelyn
+              Ward</p>
+            <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
+            <p class="my-4 text-lg sm:pl-36 sm:text-md"> I have had the pleasure of working with Dany for almost
+              two
+              years now. Being
+              able to work with her has been
+              tremendously rewarding and she is one of the reasons I enjoy my job so much. She is extremely
+              knowledgeable
+              and eager to tackle any challenge that comes her way. She has always been such a great support
+              system for
+              not only myself, but our team as a whole She has been such a great asset to the team and I cannot
+              wait to
+              see how she continues to flourish in her career.</p>
+          </div>
+          <div class="container max-w-6xl m-auto">
+            <hr class="my-8 sm:ml-36">
+          </div>
+          <div class="my-4">
+            <img alt="Adonis" class="float-left rounded-full"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQFBtT95N7kaKg/profile-displayphoto-shrink_100_100/0/1516928849865?e=1618444800&v=beta&t=DHYHZFzwh5kpmbIYJF3caYUaJyQwwseJG18FflL7OjM">
+            <p class="mt-4 text-2xl font-semibold tracking-wider text-green-500 uppercase pl-36 sm:text-xl">
+              Adonis
+              Jones</p>
+            <p class="mb-4 pl-36 text-md sm:text-sm">Perdoceo Education Corporation</p>
+            <p class="my-4 text-lg sm:pl-36 sm:text-md"> I have been working with Dany for over two years now
+              and has been an incredible leader. she is attentive and
+              pays close attention to her coworkers. She has implemented various strategies to make us more
+              efficient
+              and
+              productive. she is also open to constructive feedback. I honestly wouldn't know what to do if she
+              wasn't
+              my
+              manager.</p>
+          </div>
+        </div>
+        <div class="w-11/12 pb-8 pl-12 leading-6 tracking-wide text-md">
+          <span class="mt-4 sm:uppercase text-md">Interested in reading more?</span><br><br>
+          <a href="https://www.linkedin.com/in/danychheang/" target="_blank"><button
+              class="px-6 py-4 mb-8 text-base tracking-widest text-white uppercase bg-green-500 border-2 border-green-500 shadow-lg outline-none cursor-pointer md:mb-0 sm:px-12 sm:py-4 hover:bg-transparent hover:text-black"><i
+                class="fab fa-linkedin"></i> head over to Linkedin
+            </button></a>
+        </div>
+        <hr class="my-2">
+        <span id="closeTestimonial" class="px-12 mb-4 text-3xl font-bold tracking-wider uppercase">Close</span>
+
+      </div>
+    </div>
     <!-- END OF TESTIMONIALS -->
     <!-- END OF MODALS -->
 
     <!-- MESSAGE -->
-    <div class="relative flex items-center justify-center pt-16 m-auto bg-transparent bg-gray-100">
-      <div id="message" class="w-full max-w-md px-6 text-center mb-28">
+    <div
+      class="relative flex items-center justify-center pt-16 m-auto bg-left bg-no-repeat sm:bg-center sm:bg-cover bg:contain"
+      style="background-image: url(images/img2.jpg)">
+      <div id="message" class="w-full max-w-md px-6 py-8 text-center bg-opacity-70 mb-28 bg-gray-50">
 
         <h1 class="mb-8 text-4xl font-bold text-black uppercase md:text-5xl">
           Let's connect</h1>
+
+        <p class="my-8 text-base font-normal tracking-wide text-black md:text-lg">
+          Follow me on these other platforms and drop a line if you'd like to collaborate.
+        </p>
 
         <div class="flex items-center justify-around mb-8 text-4xl text-green-500">
           <span class="cursor-pointer hover:text-black">
@@ -298,16 +484,6 @@
             class="text-sm bg-green-500 border-2 shadow-lg border-green-500 rounded-lg cursor-pointer text-white outline-none mr-0.5 p-4 max-w-xs uppercase hover:bg-transparent hover:text-black">Send
             Message</button>
         </form>
-
-        <!-- <div class="absolute top-0 left-0 z-0 w-full overflow-hidden opacity-30">
-          <video role="presentation" preload="auto" crossorigin="anonymous" autoplay loop
-            class="object-cover w-full h-full">
-            <source src="images/vid1.mp4" type="video/mp4">
-            <source src="images/vid1.webm" type="video/webm">
-            Your browser does not support this video.
-          </video>
-        </div> -->
-
       </div>
     </div>
     <!-- END OF MESSAGE -->
