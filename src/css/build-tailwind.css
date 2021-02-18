@@ -31245,6 +31245,10 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
