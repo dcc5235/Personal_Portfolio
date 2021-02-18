@@ -17,38 +17,42 @@
       <div class="container flex items-center justify-end max-w-6xl px-6 py-0 m-auto">
 
         <div class="flex items-center pr-2 md:pr-4">
-          <span class="m-2 text-xl text-green-500 md:text-2xl">
+          <span class="m-2 text-lg text-green-500 sm:text-xl md:text-2xl">
             <i class="far fa-address-card"></i>
           </span>
           <a href="https://www.linkedin.com/in/danychheang/" target="_blank">
-            <p class="text-xl font-semibold cursor-pointer md:text-2xl w-max hover:text-green-500">Linkedin</p>
+            <p class="text-lg font-semibold cursor-pointer sm:text-xl md:text-2xl w-max hover:text-green-500">Linkedin
+            </p>
           </a>
         </div>
 
         <div class="flex items-center pr-2 md:pr-4">
-          <span class="m-2 text-xl text-green-500 md:text-2xl">
+          <span class="m-2 text-lg text-green-500 sm:text-xl md:text-2xl">
             <i class="fas fa-code-branch"></i>
           </span>
           <a href="https://github.com/dcc5235" target="_blank">
-            <p class="text-xl font-semibold cursor-pointer md:text-2xl w-max hover:text-green-500">Github</p>
+            <p class="text-lg font-semibold cursor-pointer sm:text-xl md:text-2xl w-max hover:text-green-500">Github
+            </p>
           </a>
         </div>
 
         <div class="items-center hidden pr-2 sm:flex md:pr-4">
-          <span class="m-2 text-xl text-green-500 md:text-2xl">
+          <span class="m-2 text-lg text-green-500 sm:text-xl md:text-2xl">
             <i class="far fa-heart"></i>
           </span>
           <a href="#project">
-            <p class="text-xl font-semibold cursor-pointer md:text-2xl w-max hover:text-green-500">Portfolio</p>
+            <p class="text-lg font-semibold cursor-pointer sm:text-xl md:text-2xl w-max hover:text-green-500">Portfolio
+            </p>
           </a>
         </div>
 
         <div class="flex items-center pr-2 md:pr-4">
-          <span class="m-2 text-xl text-green-500 md:text-2xl">
+          <span class="m-2 text-lg text-green-500 sm:text-xl md:text-2xl">
             <i class="far fa-envelope-open"></i>
           </span>
           <a href="#message">
-            <p class="text-xl font-semibold cursor-pointer md:text-2xl w-max hover:text-green-500">Contact Me</p>
+            <p class="text-lg font-semibold cursor-pointer sm:text-xl md:text-2xl w-max hover:text-green-500">Contact
+              Me</p>
           </a>
         </div>
       </div>
@@ -182,11 +186,12 @@
       <div class="max-w-4xl text-base md:text-lg lg:m-auto lg:max-w-6xl">
 
         <div id="video" class="absolute top-0 left-0 w-full h-full overflow-hidden opacity-30">
-          <video role="presentation" preload="auto" crossorigin="anonymous" autoplay muted loop
-            class="object-cover w-full h-full">
-            <source src="images/video.mp4" type="video/mp4">
-            <source src="images/video.webm" type="video/webm">
-            Your browser does not support this video.
+          <video onloadeddata="this.play();" onloadedmetadata="this.muted = true" role="presentation" preload="auto"
+            crossorigin="anonymous" autoplay muted loop class="object-cover w-full h-full">
+            <source src="images/video.mp4" type="video/mp4" />
+            <source src="images/video.webm" type="video/webm" />
+            <source src="images/video.ogg" type="video/ogg" />
+            Your browser does not support the video tag or the file format of this video.
           </video>
         </div>
 
