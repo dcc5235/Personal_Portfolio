@@ -1,38 +1,33 @@
-// Modal Buttons
-const projectBtn = document.getElementById("projectBtn");
-const testimonialBtn = document.getElementById("testimonialBtn");
-
-// Modal
-const projectModal = document.getElementById("projectModal");
-const testimonialModal = document.getElementById("testimonialModal");
-
-// Close Buttons
-const closeBtn = document.getElementById("closeTestimonial");
-const closeBtn2 = document.getElementById("closeProject");
+// VARIABLES
+const modal = document.querySelectorAll(".modal");
+const modalBtn = document.querySelectorAll(".modalBtn");
+const closeBtn = document.querySelectorAll(".closeBtn");
 
 // OPEN MODAL
-projectBtn.onclick = function () {
-  projectModal.style.display = "block";
+modal.forEach(function (element) {
+  modalBtn[0].onclick = function (event) {
+    modal[0].style.display = "block";
+  }
+});
+
+modalBtn[1].onclick = function (event) {
+  modal[1].style.display = "block";
 }
 
-testimonialBtn.onclick = function () {
-  testimonialModal.style.display = "block";
+// CLOSE MODAL ON CLOSE BTN
+closeBtn[0].onclick = function () {
+  modal[0].style.display = "none";
 }
 
-// CLOSE ON CLOSE BUTTON
-closeBtn.onclick = function () {
-  testimonialModal.style.display = "none";
+closeBtn[1].onclick = function () {
+  modal[1].style.display = "none";
 }
 
-closeBtn2.onclick = function () {
-  projectModal.style.display = "none";
-}
-
-// CLOSE MODAL
+// CLOSE MODAL ON WINDOW
 window.onclick = function (event) {
-  if (event.target == projectModal) {
-    projectModal.style.display = "none";
-  } else if (event.target == testimonialModal) {
-    testimonialModal.style.display = "none";
+  if (event.target == modal[0]) {
+    modal[0].style.display = "none";
+  } else if (event.target == modal[1]) {
+    modal[1].style.display = "none";
   }
 }
