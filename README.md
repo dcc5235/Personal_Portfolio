@@ -6,9 +6,9 @@
 
 once complete, this readme will be updated
 
-**HTML5 | CSS3 | TAILWIND CSS | JAVASCRIPT | Node.js**
+**HTML5 | CSS3 | TAILWIND CSS | JAVASCRIPT | NODE.JS**
 
-A responsive, personal portfolio which is both mobile and desktop ready. The site includes what I do, my stack and skill sets, a featured project with live demo, testimonials, and ways to get in touch with me.
+A responsive, personal portfolio which is both mobile and desktop ready. The site includes what I do, my stack and skill sets, a featured project with live demo, testimonials, and ways to get in touch with me. Feel free to have a look around and reach out with questions.
 
 ![](https://media-exp1.licdn.com/dms/image/C4E22AQGqthAiPP48Ng/feedshare-shrink_800/0/1613745734807?e=1616630400&v=beta&t=wEnH40wWBQbsfJomsaT1O5iextTeLUg053iHEjwkBFQ)
 
