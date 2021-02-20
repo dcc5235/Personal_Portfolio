@@ -30,6 +30,6 @@ Contact Form | lorem ipsum | ![](https://media-exp1.licdn.com/dms/image/C4E22AQG
 
 ## Credits
 
-- Images from [Unsplash.com](https://unsplash.com/) and [Pexels.com](https://www.pexels.com/).
+- Images from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 - Icons from [Font Awesome](https://fontawesome.com/) and [Devicon](https://devicon.dev/).
 - Design, Content, and Code by [Dany Chheang](https://github.com/dcc5235).
