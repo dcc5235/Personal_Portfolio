@@ -33,3 +33,11 @@ Contact Form | Form input allows users to send me an email.| ![](https://media-e
 - Images from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 - Icons from [Font Awesome](https://fontawesome.com/) and [Devicon](https://devicon.dev/).
 - Design, Content, and Code by [Dany Chheang](https://github.com/dcc5235).
+
+---
+
+## Contact
+
+- [Twitter](https://twitter.com/DanyChheang)
+- [Website](https://danychheang.com)
+- [Linkedin](https://www.linkedin.com/in/danychheang/)
