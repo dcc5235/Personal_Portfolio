@@ -10,8 +10,6 @@ once complete, this readme will be updated
 
 A responsive, personal portfolio which is both mobile and desktop ready. The site includes what I do, my stack and skill sets, a featured project with live demo, testimonials, and ways to get in touch with me. Feel free to have a look around and reach out with questions.
 
-![](readme/img4.gif)
-
 ---
 
 ## Project Highlights
