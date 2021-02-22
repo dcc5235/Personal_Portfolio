@@ -4,8 +4,6 @@
 
 # work in progress - currently working on cleaning the code and refactoring
 
-once complete, this readme will be updated
-
 **HTML5 | CSS3 | TAILWIND CSS | JAVASCRIPT | NODE.JS**
 
 A responsive, personal portfolio which is both mobile and desktop ready. The site includes what I do, my stack and skill sets, a featured project with live demo, testimonials, and ways to get in touch with me. Feel free to have a look around and reach out with questions.
