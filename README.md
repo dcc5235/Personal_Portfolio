@@ -1,6 +1,6 @@
 # Dany Chheang - Personal Portfolio ![GitHub version doc](https://img.shields.io/badge/Version-1.0.0-red) ![GitHub last commit](https://img.shields.io/github/last-commit/dcc5235/Personal_Portfolio?style=flat-square) 
 
-### Check out the live version of the [Portfolio](https://danychheang.com/)!
+### Check out the live version of my [Portfolio](https://danychheang.com/)!
 
 **HTML5 | CSS3 | TAILWIND CSS | JAVASCRIPT | NODE.JS**
 
